@@ -195,3 +195,8 @@ user request. © World ORT, all rights reserved. No ORT audio is bundled or
 rehosted, and no ScrollScraper source code is copied. See
 [SCROLLSCRAPER.md](SCROLLSCRAPER.md) for the pipeline and source limitations.
 
+
+
+## Noto Serif Japanese branding subset
+
+The Japanese brand glyphs are a five-character subset of Noto Serif JP 400, obtained from @fontsource/noto-serif-jp 5.3.1. Copyright Google Inc. Licensed under SIL Open Font License 1.1; the full license is included in [NOTO-SERIF-JP-LICENSE.txt](NOTO-SERIF-JP-LICENSE.txt). The fonts were subset to the characters 光モンみつ and distributed as WOFF; no letterforms were changed. Source: https://github.com/notofonts/noto-cjk
