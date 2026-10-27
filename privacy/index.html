@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Privacy · Mitsumon</title>
+  <style>
+    :root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#fffdf8;color:#243b36;font:17px/1.65 system-ui,sans-serif}main{max-width:760px;margin:auto;padding:48px 24px}h1{font-size:2.2rem;line-height:1.2}h2{font-size:1.25rem;margin-top:30px}a{color:#246550;text-underline-offset:3px}footer{margin-top:40px;font-size:.9rem}strong{overflow-wrap:anywhere}@media(max-width:480px){main{padding:28px 20px}}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy</h1>
+  <p>Mitsumon keeps practice on your device unless you choose to use its cloud features.</p>
+
+  <h2>On this device</h2>
+  <p>Trainer profiles, progress, game data and workbook writing are saved in your browser. Torah practice recordings stay in the running page’s memory: that feature does not upload them or include them in cloud saves or backups. Closing or reloading the page clears those recordings.</p>
+  <p>The AI tutor is currently inactive. Its message and voice controls stay unavailable unless activation is confirmed. If the developer activates it later, explicitly sent messages, recent conversation, selected notes and voice turns would go through Supabase to OpenAI.</p>
+
+  <h2>Optional sign-in</h2>
+  <p>Mitsumon is in private testing. Accounts are by invitation only and open to adults only for now. Cloud features work only for accounts the developer activates.</p>
+  <p>Email/password and Google sign-in use Supabase Auth. Google sign-in shares basic account information, such as your email and profile details, with Supabase. Sign-in checks your existing cloud save and wallet; it does not upload or overwrite local work automatically. Save to cloud uploads the selected companion, progress and workbook writing. Online battles store participant identifiers, companion and game state, outcomes, timestamps and prizes; opponents can see their match data.</p>
+  <p>Sign-in sessions stay in page memory. Google sign-in temporarily uses this tab’s storage to complete its redirect.</p>
+
+  <h2>Disconnecting and deleting</h2>
+  <p>Sign out ends the current sign-in but leaves local profiles and writing. Clear this site’s browser data on each device to remove those copies, and delete downloaded backups separately.</p>
+  <p>There is no self-service account deletion. Contact <a href="mailto:benyaminnewman@gmail.com">benyaminnewman@gmail.com</a> to request review or deletion of account and cloud data. No automatic deletion schedule is configured. Battle invitations expire after 24 hours, but that does not delete their records. Service-provider logs and backups have their own retention policies; their retention periods have not been verified.</p>
+
+  <h2>Service providers</h2>
+  <p>Supabase provides authentication, cloud storage and server functions. Authorized project administrators can access server-held data. Google handles Google sign-in. GitHub Pages hosts the site. PocketTorah audio streams from GitHub, World ORT audio from ScrollScraper, and prayer recordings from archive.org.</p>
+  <p>These requests disclose your IP address, ordinary browser/connection information and the requested page or recording to the provider. Optional source links open outside sites under their own policies. The reviewed app code has no advertising or behavioral-analytics SDK. The inactive tutor sends no content to OpenAI.</p>
+
+  <h2>Contact</h2>
+  <p>Operator: <strong>Ben Newman</strong><br>Privacy requests: <a href="mailto:benyaminnewman@gmail.com">benyaminnewman@gmail.com</a></p>
+
+  <footer><a href="../">Back to Mitsumon</a></footer>
+</main>
+</body>
+</html>

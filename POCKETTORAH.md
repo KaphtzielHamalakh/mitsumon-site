@@ -61,4 +61,3 @@ can select passages without fetching metadata. MP3s are fetched only when played
 This is convenient for initial review, but a larger deployment should split
 metadata by portion and self-host credited audio instead of relying on raw GitHub
 availability. No hosting deployment is made by this change.
-
