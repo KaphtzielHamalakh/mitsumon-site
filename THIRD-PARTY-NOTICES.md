@@ -326,3 +326,40 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
+
+
+## Hebrew curriculum English reference
+
+Contextual English teaching glosses were checked against the JPS-labelled
+text in Scrollmapper's bible_databases, commit
+`59b18c5af5845728c275d5b7178ad0d024172b1f`. The exact edition is not established
+by that dataset title. Source excerpts and all card adaptations are inventoried
+in the development repository's `docs/HEBREW-CONTENT.md`. Hebrew prayer passages
+remain from the existing PocketTorah catalog under its license above. The
+adapted Hebrew excerpts and their curriculum metadata are also distributed
+under CC BY-SA 2.5, with cantillation/punctuation removed for teaching.
+
+```text
+MIT License
+
+Copyright (c) 2024 Scrollmapper
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```

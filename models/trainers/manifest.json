@@ -1,0 +1,1189 @@
+{
+  "id": "trainer",
+  "name": "Trainer",
+  "file": "trainer-kit.glb",
+  "trianglesPacked": 5990,
+  "trianglesDefault": 2074,
+  "parts": [
+    {
+      "node": "body__classic",
+      "materials": [
+        "Trainer.body__classic.skin"
+      ],
+      "bones": [
+        "arm.L",
+        "arm.R",
+        "forearm.L",
+        "forearm.R",
+        "leg.L",
+        "leg.R",
+        "shin.L",
+        "shin.R",
+        "spine"
+      ],
+      "group": "body_type",
+      "variant": "classic"
+    },
+    {
+      "node": "body__slender",
+      "materials": [
+        "Trainer.body__slender.skin"
+      ],
+      "bones": [
+        "arm.L",
+        "arm.R",
+        "forearm.L",
+        "forearm.R",
+        "leg.L",
+        "leg.R",
+        "shin.L",
+        "shin.R",
+        "spine"
+      ],
+      "group": "body_type",
+      "variant": "slender"
+    },
+    {
+      "node": "body__sturdy",
+      "materials": [
+        "Trainer.body__sturdy.skin"
+      ],
+      "bones": [
+        "arm.L",
+        "arm.R",
+        "forearm.L",
+        "forearm.R",
+        "leg.L",
+        "leg.R",
+        "shin.L",
+        "shin.R",
+        "spine"
+      ],
+      "group": "body_type",
+      "variant": "sturdy"
+    },
+    {
+      "node": "head",
+      "materials": [
+        "Trainer.head.skin",
+        "Trainer.head.mouth"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": null,
+      "variant": null
+    },
+    {
+      "node": "eyes__round",
+      "materials": [
+        "Trainer.eyes__round.eyes.white",
+        "Trainer.eyes__round.eyes.iris",
+        "Trainer.eyes__round.eyes.pupil",
+        "Trainer.eyes__round.eyes.glint"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "eyes",
+      "variant": "round"
+    },
+    {
+      "node": "eyes__gentle",
+      "materials": [
+        "Trainer.eyes__gentle.eyes.white",
+        "Trainer.eyes__gentle.eyes.iris",
+        "Trainer.eyes__gentle.eyes.pupil",
+        "Trainer.eyes__gentle.eyes.glint"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "eyes",
+      "variant": "gentle"
+    },
+    {
+      "node": "brows__soft",
+      "materials": [
+        "Trainer.brows__soft.hair"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "brows",
+      "variant": "soft"
+    },
+    {
+      "node": "brows__confident",
+      "materials": [
+        "Trainer.brows__confident.hair"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "brows",
+      "variant": "confident"
+    },
+    {
+      "node": "glasses__round",
+      "materials": [
+        "Trainer.glasses__round.glasses"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "glasses",
+      "variant": "round"
+    },
+    {
+      "node": "glasses__rectangular",
+      "materials": [
+        "Trainer.glasses__rectangular.glasses"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "glasses",
+      "variant": "rectangular"
+    },
+    {
+      "node": "hair__short_sweep",
+      "materials": [
+        "Trainer.hair__short_sweep.hair"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "hair",
+      "variant": "short_sweep"
+    },
+    {
+      "node": "hair__curls",
+      "materials": [
+        "Trainer.hair__curls.hair"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "hair",
+      "variant": "curls"
+    },
+    {
+      "node": "hair__braids",
+      "materials": [
+        "Trainer.hair__braids.hair",
+        "Trainer.hair__braids.hair.tie"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "hair",
+      "variant": "braids"
+    },
+    {
+      "node": "top__trail_shirt",
+      "materials": [
+        "Trainer.top__trail_shirt.top.main",
+        "Trainer.top__trail_shirt.top.accent"
+      ],
+      "bones": [
+        "arm.L",
+        "arm.R",
+        "forearm.L",
+        "forearm.R",
+        "spine"
+      ],
+      "group": "top",
+      "variant": "trail_shirt"
+    },
+    {
+      "node": "top__vest",
+      "materials": [
+        "Trainer.top__vest.top.main",
+        "Trainer.top__vest.top.accent"
+      ],
+      "bones": [
+        "arm.L",
+        "arm.R",
+        "forearm.L",
+        "forearm.R",
+        "spine"
+      ],
+      "group": "top",
+      "variant": "vest"
+    },
+    {
+      "node": "bottom__shorts",
+      "materials": [
+        "Trainer.bottom__shorts.bottom.main"
+      ],
+      "bones": [
+        "hips",
+        "leg.L",
+        "leg.R",
+        "shin.L",
+        "shin.R"
+      ],
+      "group": "bottom",
+      "variant": "shorts"
+    },
+    {
+      "node": "bottom__trousers",
+      "materials": [
+        "Trainer.bottom__trousers.bottom.main"
+      ],
+      "bones": [
+        "hips",
+        "leg.L",
+        "leg.R",
+        "shin.L",
+        "shin.R"
+      ],
+      "group": "bottom",
+      "variant": "trousers"
+    },
+    {
+      "node": "shoes__sneakers",
+      "materials": [
+        "Trainer.shoes__sneakers.shoes.main",
+        "Trainer.shoes__sneakers.shoes.accent"
+      ],
+      "bones": [
+        "shin.L",
+        "shin.R"
+      ],
+      "group": "shoes",
+      "variant": "sneakers"
+    },
+    {
+      "node": "shoes__boots",
+      "materials": [
+        "Trainer.shoes__boots.shoes.main"
+      ],
+      "bones": [
+        "shin.L",
+        "shin.R"
+      ],
+      "group": "shoes",
+      "variant": "boots"
+    },
+    {
+      "node": "headwear__kippah",
+      "materials": [
+        "Trainer.headwear__kippah.headwear.main"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "headwear",
+      "variant": "kippah"
+    },
+    {
+      "node": "headwear__cap",
+      "materials": [
+        "Trainer.headwear__cap.headwear.main",
+        "Trainer.headwear__cap.headwear.accent"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "headwear",
+      "variant": "cap"
+    },
+    {
+      "node": "headwear__headscarf",
+      "materials": [
+        "Trainer.headwear__headscarf.headwear.main",
+        "Trainer.headwear__headscarf.headwear.accent"
+      ],
+      "bones": [
+        "head"
+      ],
+      "group": "headwear",
+      "variant": "headscarf"
+    },
+    {
+      "node": "tallit__striped",
+      "materials": [
+        "Trainer.tallit__striped.tallit.main",
+        "Trainer.tallit__striped.tallit.accent"
+      ],
+      "bones": [
+        "spine"
+      ],
+      "group": "tallit",
+      "variant": "striped"
+    }
+  ],
+  "variantGroups": {
+    "body_type": {
+      "default": "classic",
+      "variants": {
+        "classic": [
+          "body__classic"
+        ],
+        "slender": [
+          "body__slender"
+        ],
+        "sturdy": [
+          "body__sturdy"
+        ]
+      }
+    },
+    "eyes": {
+      "default": "round",
+      "variants": {
+        "round": [
+          "eyes__round"
+        ],
+        "gentle": [
+          "eyes__gentle"
+        ]
+      }
+    },
+    "brows": {
+      "default": "soft",
+      "variants": {
+        "soft": [
+          "brows__soft"
+        ],
+        "confident": [
+          "brows__confident"
+        ]
+      }
+    },
+    "glasses": {
+      "default": "none",
+      "variants": {
+        "none": [],
+        "round": [
+          "glasses__round"
+        ],
+        "rectangular": [
+          "glasses__rectangular"
+        ]
+      }
+    },
+    "hair": {
+      "default": "short_sweep",
+      "variants": {
+        "none": [],
+        "short_sweep": [
+          "hair__short_sweep"
+        ],
+        "curls": [
+          "hair__curls"
+        ],
+        "braids": [
+          "hair__braids"
+        ]
+      }
+    },
+    "top": {
+      "default": "trail_shirt",
+      "variants": {
+        "trail_shirt": [
+          "top__trail_shirt"
+        ],
+        "vest": [
+          "top__vest"
+        ]
+      }
+    },
+    "bottom": {
+      "default": "shorts",
+      "variants": {
+        "shorts": [
+          "bottom__shorts"
+        ],
+        "trousers": [
+          "bottom__trousers"
+        ]
+      }
+    },
+    "shoes": {
+      "default": "sneakers",
+      "variants": {
+        "sneakers": [
+          "shoes__sneakers"
+        ],
+        "boots": [
+          "shoes__boots"
+        ]
+      }
+    },
+    "headwear": {
+      "default": "none",
+      "variants": {
+        "none": [],
+        "kippah": [
+          "headwear__kippah"
+        ],
+        "cap": [
+          "headwear__cap"
+        ],
+        "headscarf": [
+          "headwear__headscarf"
+        ]
+      }
+    },
+    "tallit": {
+      "default": "none",
+      "variants": {
+        "none": [],
+        "striped": [
+          "tallit__striped"
+        ]
+      }
+    }
+  },
+  "materials": [
+    {
+      "name": "Trainer.body__classic.skin",
+      "slot": "skin",
+      "defaultColor": "#dba47c"
+    },
+    {
+      "name": "Trainer.body__slender.skin",
+      "slot": "skin",
+      "defaultColor": "#dba47c"
+    },
+    {
+      "name": "Trainer.body__sturdy.skin",
+      "slot": "skin",
+      "defaultColor": "#dba47c"
+    },
+    {
+      "name": "Trainer.head.skin",
+      "slot": "skin",
+      "defaultColor": "#dba47c"
+    },
+    {
+      "name": "Trainer.head.mouth",
+      "slot": "mouth",
+      "defaultColor": "#634738"
+    },
+    {
+      "name": "Trainer.eyes__round.eyes.white",
+      "slot": "eyes.white",
+      "defaultColor": "#fff9e9"
+    },
+    {
+      "name": "Trainer.eyes__round.eyes.iris",
+      "slot": "eyes.iris",
+      "defaultColor": "#69817b"
+    },
+    {
+      "name": "Trainer.eyes__round.eyes.pupil",
+      "slot": "eyes.pupil",
+      "defaultColor": "#2f3834"
+    },
+    {
+      "name": "Trainer.eyes__round.eyes.glint",
+      "slot": "eyes.glint",
+      "defaultColor": "#ffffff"
+    },
+    {
+      "name": "Trainer.eyes__gentle.eyes.white",
+      "slot": "eyes.white",
+      "defaultColor": "#fff9e9"
+    },
+    {
+      "name": "Trainer.eyes__gentle.eyes.iris",
+      "slot": "eyes.iris",
+      "defaultColor": "#69817b"
+    },
+    {
+      "name": "Trainer.eyes__gentle.eyes.pupil",
+      "slot": "eyes.pupil",
+      "defaultColor": "#2f3834"
+    },
+    {
+      "name": "Trainer.eyes__gentle.eyes.glint",
+      "slot": "eyes.glint",
+      "defaultColor": "#ffffff"
+    },
+    {
+      "name": "Trainer.brows__soft.hair",
+      "slot": "hair",
+      "defaultColor": "#594032"
+    },
+    {
+      "name": "Trainer.brows__confident.hair",
+      "slot": "hair",
+      "defaultColor": "#594032"
+    },
+    {
+      "name": "Trainer.glasses__round.glasses",
+      "slot": "glasses",
+      "defaultColor": "#514c57"
+    },
+    {
+      "name": "Trainer.glasses__rectangular.glasses",
+      "slot": "glasses",
+      "defaultColor": "#514c57"
+    },
+    {
+      "name": "Trainer.hair__short_sweep.hair",
+      "slot": "hair",
+      "defaultColor": "#594032"
+    },
+    {
+      "name": "Trainer.hair__curls.hair",
+      "slot": "hair",
+      "defaultColor": "#594032"
+    },
+    {
+      "name": "Trainer.hair__braids.hair",
+      "slot": "hair",
+      "defaultColor": "#594032"
+    },
+    {
+      "name": "Trainer.hair__braids.hair.tie",
+      "slot": "hair.tie",
+      "defaultColor": "#d9b66b"
+    },
+    {
+      "name": "Trainer.top__trail_shirt.top.main",
+      "slot": "top.main",
+      "defaultColor": "#64a7bc"
+    },
+    {
+      "name": "Trainer.top__trail_shirt.top.accent",
+      "slot": "top.accent",
+      "defaultColor": "#efc078"
+    },
+    {
+      "name": "Trainer.top__vest.top.main",
+      "slot": "top.main",
+      "defaultColor": "#64a7bc"
+    },
+    {
+      "name": "Trainer.top__vest.top.accent",
+      "slot": "top.accent",
+      "defaultColor": "#527f82"
+    },
+    {
+      "name": "Trainer.bottom__shorts.bottom.main",
+      "slot": "bottom.main",
+      "defaultColor": "#536c82"
+    },
+    {
+      "name": "Trainer.bottom__trousers.bottom.main",
+      "slot": "bottom.main",
+      "defaultColor": "#536c82"
+    },
+    {
+      "name": "Trainer.shoes__sneakers.shoes.main",
+      "slot": "shoes.main",
+      "defaultColor": "#80644e"
+    },
+    {
+      "name": "Trainer.shoes__sneakers.shoes.accent",
+      "slot": "shoes.accent",
+      "defaultColor": "#e8d5ac"
+    },
+    {
+      "name": "Trainer.shoes__boots.shoes.main",
+      "slot": "shoes.main",
+      "defaultColor": "#80644e"
+    },
+    {
+      "name": "Trainer.headwear__kippah.headwear.main",
+      "slot": "headwear.main",
+      "defaultColor": "#476e87"
+    },
+    {
+      "name": "Trainer.headwear__cap.headwear.main",
+      "slot": "headwear.main",
+      "defaultColor": "#527b8e"
+    },
+    {
+      "name": "Trainer.headwear__cap.headwear.accent",
+      "slot": "headwear.accent",
+      "defaultColor": "#edc77c"
+    },
+    {
+      "name": "Trainer.headwear__headscarf.headwear.main",
+      "slot": "headwear.main",
+      "defaultColor": "#a47db5"
+    },
+    {
+      "name": "Trainer.headwear__headscarf.headwear.accent",
+      "slot": "headwear.accent",
+      "defaultColor": "#f0cb89"
+    },
+    {
+      "name": "Trainer.tallit__striped.tallit.main",
+      "slot": "tallit.main",
+      "defaultColor": "#fff0d1"
+    },
+    {
+      "name": "Trainer.tallit__striped.tallit.accent",
+      "slot": "tallit.accent",
+      "defaultColor": "#587fa9"
+    }
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "seconds": 2.0,
+      "loop": true,
+      "holdLastFrame": false
+    },
+    {
+      "name": "walk",
+      "seconds": 1.0,
+      "loop": true,
+      "holdLastFrame": false
+    },
+    {
+      "name": "run",
+      "seconds": 0.75,
+      "loop": true,
+      "holdLastFrame": false
+    },
+    {
+      "name": "sit",
+      "seconds": 1.5,
+      "loop": false,
+      "holdLastFrame": true
+    },
+    {
+      "name": "cheer",
+      "seconds": 1.5,
+      "loop": false,
+      "holdLastFrame": false
+    },
+    {
+      "name": "command",
+      "seconds": 1.1666666666666667,
+      "loop": false,
+      "holdLastFrame": false
+    },
+    {
+      "name": "attack",
+      "seconds": 1.0,
+      "loop": false,
+      "holdLastFrame": false
+    },
+    {
+      "name": "hit",
+      "seconds": 0.75,
+      "loop": false,
+      "holdLastFrame": false
+    }
+  ],
+  "defaultSelection": {
+    "body_type": "classic",
+    "eyes": "round",
+    "brows": "soft",
+    "glasses": "none",
+    "hair": "short_sweep",
+    "top": "trail_shirt",
+    "bottom": "shorts",
+    "shoes": "sneakers",
+    "headwear": "none",
+    "tallit": "none"
+  },
+  "rig": {
+    "convention": "mitsumon-toy-v1",
+    "bones": [
+      "root",
+      "hips",
+      "spine",
+      "head",
+      "arm.L",
+      "forearm.L",
+      "arm.R",
+      "forearm.R",
+      "leg.L",
+      "shin.L",
+      "leg.R",
+      "shin.R"
+    ],
+    "up": "+Y",
+    "forward": "+Z",
+    "units": "meters"
+  },
+  "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+  "schemaVersion": 1,
+  "status": "complete-trainer-showcase",
+  "generator": "tools/blender/build.py",
+  "blenderVersion": "4.3.2",
+  "skinTones": {
+    "tone_01": "#f2cfa7",
+    "tone_02": "#dba47c",
+    "tone_03": "#b87951",
+    "tone_04": "#8a5339",
+    "tone_05": "#593b32"
+  },
+  "selectionRules": [
+    {
+      "when": {
+        "headwear": "headscarf"
+      },
+      "require": {
+        "hair": "none"
+      }
+    },
+    {
+      "when": {
+        "headwear": "cap"
+      },
+      "allowed": {
+        "hair": [
+          "short_sweep",
+          "none"
+        ]
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "trainer-trail",
+      "label": "Trail traveler",
+      "selection": {
+        "body_type": "classic",
+        "hair": "short_sweep",
+        "eyes": "round",
+        "brows": "soft",
+        "glasses": "none",
+        "top": "trail_shirt",
+        "bottom": "shorts",
+        "shoes": "sneakers",
+        "headwear": "kippah",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#dba47c",
+        "hair": "#594032",
+        "top.main": "#64a7bc",
+        "top.accent": "#f0bd68",
+        "bottom.main": "#526b82",
+        "shoes.main": "#80644e",
+        "headwear.main": "#476e87"
+      },
+      "file": "trainer-trail.glb",
+      "trianglesPacked": 2144,
+      "bytes": 174048,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/trainer-trail.png"
+    },
+    {
+      "id": "trainer-meadow",
+      "label": "Meadow traveler",
+      "selection": {
+        "body_type": "sturdy",
+        "hair": "curls",
+        "eyes": "round",
+        "brows": "confident",
+        "glasses": "none",
+        "top": "vest",
+        "bottom": "trousers",
+        "shoes": "boots",
+        "headwear": "none",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#593b32",
+        "hair": "#302d32",
+        "top.main": "#9cb779",
+        "top.accent": "#edd29a",
+        "bottom.main": "#745480",
+        "shoes.main": "#7c644c"
+      },
+      "file": "trainer-meadow.glb",
+      "trianglesPacked": 2312,
+      "bytes": 176260,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/trainer-meadow.png"
+    },
+    {
+      "id": "trainer-study",
+      "label": "Study traveler",
+      "selection": {
+        "body_type": "slender",
+        "hair": "none",
+        "eyes": "gentle",
+        "brows": "soft",
+        "glasses": "round",
+        "top": "vest",
+        "bottom": "trousers",
+        "shoes": "sneakers",
+        "headwear": "headscarf",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#f2cfa7",
+        "hair": "#845638",
+        "headwear.main": "#a47db5",
+        "headwear.accent": "#f1cc88",
+        "top.main": "#d99975",
+        "top.accent": "#fbdfaa",
+        "bottom.main": "#687e91",
+        "eyes.iris": "#668a76"
+      },
+      "file": "trainer-study.glb",
+      "trianglesPacked": 2324,
+      "bytes": 180468,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/trainer-study.png"
+    },
+    {
+      "id": "trainer-river",
+      "label": "River traveler",
+      "selection": {
+        "body_type": "classic",
+        "hair": "braids",
+        "eyes": "round",
+        "brows": "soft",
+        "glasses": "round",
+        "top": "trail_shirt",
+        "bottom": "trousers",
+        "shoes": "sneakers",
+        "headwear": "none",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#b87951",
+        "hair": "#47332b",
+        "top.main": "#72b6bc",
+        "top.accent": "#efcb85",
+        "bottom.main": "#577b92",
+        "shoes.main": "#75614b",
+        "eyes.iris": "#6b8e75"
+      },
+      "file": "trainer-river.glb",
+      "trianglesPacked": 2326,
+      "bytes": 180616,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/trainer-river.png"
+    },
+    {
+      "id": "trainer-hill",
+      "label": "Hill traveler",
+      "selection": {
+        "body_type": "sturdy",
+        "hair": "short_sweep",
+        "eyes": "round",
+        "brows": "confident",
+        "glasses": "none",
+        "top": "trail_shirt",
+        "bottom": "shorts",
+        "shoes": "boots",
+        "headwear": "cap",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#8a5339",
+        "hair": "#cfab68",
+        "headwear.main": "#bb8766",
+        "headwear.accent": "#f1d68c",
+        "top.main": "#c8ae70",
+        "top.accent": "#f6e0a9",
+        "bottom.main": "#73886b",
+        "shoes.main": "#6c5948"
+      },
+      "file": "trainer-hill.glb",
+      "trianglesPacked": 2248,
+      "bytes": 177028,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/trainer-hill.png"
+    },
+    {
+      "id": "trainer-luminary",
+      "label": "Luminary traveler",
+      "selection": {
+        "body_type": "slender",
+        "hair": "short_sweep",
+        "eyes": "round",
+        "brows": "soft",
+        "glasses": "rectangular",
+        "top": "vest",
+        "bottom": "trousers",
+        "shoes": "sneakers",
+        "headwear": "kippah",
+        "tallit": "striped"
+      },
+      "colors": {
+        "skin": "#dba47c",
+        "hair": "#b2aaa2",
+        "headwear.main": "#8273a2",
+        "top.main": "#9b86b5",
+        "top.accent": "#e4c881",
+        "bottom.main": "#637493",
+        "tallit.accent": "#6b87b3",
+        "eyes.iris": "#7b8d9b"
+      },
+      "file": "trainer-luminary.glb",
+      "trianglesPacked": 2754,
+      "bytes": 197068,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/trainer-luminary.png"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "npc-shopkeeper",
+      "label": "Shopkeeper",
+      "roles": [
+        "shop"
+      ],
+      "selection": {
+        "body_type": "sturdy",
+        "hair": "short_sweep",
+        "eyes": "round",
+        "brows": "soft",
+        "glasses": "round",
+        "top": "vest",
+        "bottom": "trousers",
+        "shoes": "boots",
+        "headwear": "cap",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#b87951",
+        "hair": "#594032",
+        "top.main": "#74a398",
+        "top.accent": "#edc276",
+        "bottom.main": "#665c76",
+        "headwear.main": "#6c8783"
+      },
+      "file": "npc-shopkeeper.glb",
+      "trianglesPacked": 2530,
+      "bytes": 186852,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/npc-shopkeeper.png"
+    },
+    {
+      "id": "npc-hebrew-teacher",
+      "label": "Hebrew teacher",
+      "roles": [
+        "hebrew"
+      ],
+      "selection": {
+        "body_type": "slender",
+        "hair": "curls",
+        "eyes": "gentle",
+        "brows": "soft",
+        "glasses": "none",
+        "top": "trail_shirt",
+        "bottom": "trousers",
+        "shoes": "sneakers",
+        "headwear": "none",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#8a5339",
+        "hair": "#383139",
+        "top.main": "#b796bd",
+        "top.accent": "#f1d9a2",
+        "bottom.main": "#586879"
+      },
+      "file": "npc-hebrew-teacher.glb",
+      "trianglesPacked": 2218,
+      "bytes": 174828,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/npc-hebrew-teacher.png"
+    },
+    {
+      "id": "npc-prayer-teacher",
+      "label": "Prayer teacher",
+      "roles": [
+        "prayers"
+      ],
+      "selection": {
+        "body_type": "classic",
+        "hair": "braids",
+        "eyes": "round",
+        "brows": "soft",
+        "glasses": "round",
+        "top": "vest",
+        "bottom": "trousers",
+        "shoes": "sneakers",
+        "headwear": "kippah",
+        "tallit": "striped"
+      },
+      "colors": {
+        "skin": "#dba47c",
+        "hair": "#b9b7a5",
+        "top.main": "#779bb2",
+        "top.accent": "#e3cb8d",
+        "bottom.main": "#63767c",
+        "headwear.main": "#4b6a91",
+        "tallit.accent": "#537eae"
+      },
+      "file": "npc-prayer-teacher.glb",
+      "trianglesPacked": 2890,
+      "bytes": 202188,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/npc-prayer-teacher.png"
+    },
+    {
+      "id": "npc-torah-teacher",
+      "label": "Torah leyning teacher",
+      "roles": [
+        "torah"
+      ],
+      "selection": {
+        "body_type": "classic",
+        "hair": "none",
+        "eyes": "gentle",
+        "brows": "soft",
+        "glasses": "rectangular",
+        "top": "vest",
+        "bottom": "trousers",
+        "shoes": "boots",
+        "headwear": "headscarf",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#f2cfa7",
+        "hair": "#675044",
+        "headwear.main": "#d3b76e",
+        "headwear.accent": "#f7e8b7",
+        "top.main": "#8cab83",
+        "top.accent": "#ecdcac",
+        "bottom.main": "#725e74"
+      },
+      "file": "npc-torah-teacher.glb",
+      "trianglesPacked": 2252,
+      "bytes": 177212,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/npc-torah-teacher.png"
+    },
+    {
+      "id": "npc-dvar-teacher",
+      "label": "Torah-talk teacher",
+      "roles": [
+        "dvar"
+      ],
+      "selection": {
+        "body_type": "classic",
+        "hair": "curls",
+        "eyes": "gentle",
+        "brows": "soft",
+        "glasses": "rectangular",
+        "top": "vest",
+        "bottom": "trousers",
+        "shoes": "sneakers",
+        "headwear": "none",
+        "tallit": "none"
+      },
+      "colors": {
+        "skin": "#593b32",
+        "hair": "#b8aaa0",
+        "top.main": "#c99b75",
+        "top.accent": "#f0dba7",
+        "bottom.main": "#77748a",
+        "eyes.iris": "#858e69"
+      },
+      "file": "npc-dvar-teacher.glb",
+      "trianglesPacked": 2404,
+      "bytes": 181984,
+      "animations": [
+        "idle",
+        "walk",
+        "run",
+        "sit",
+        "cheer",
+        "command",
+        "attack",
+        "hit"
+      ],
+      "preview": "docs/3d-previews/npc-dvar-teacher.png"
+    }
+  ],
+  "activeTriangleBudget": 5000
+}

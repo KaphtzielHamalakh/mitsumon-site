@@ -1,6 +1,8 @@
 {
   "name": "Mitsumon",
   "subtitle": "Your Torah & B’Mitzvah Adventure",
-  "sourceRevision": "0c276f0155297b2c4917d01a1ebaa6bf85ab09d4",
-  "builtAt": "2026-10-29T13:32:54.243Z"
+  "sourceRevision": "22daf84bad9c16d12531e560434d1c1b781a5882",
+  "frontPage": "learning",
+  "reviewOnly": false,
+  "builtAt": "2026-10-29T15:48:44.792Z"
 }

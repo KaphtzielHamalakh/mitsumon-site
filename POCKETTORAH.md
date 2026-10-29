@@ -28,7 +28,10 @@ or derivative metadata. These notices also apply to embedded preview data.
 
 Hebrew is the upstream Westminster Leningrad Codex edition. Slash morphology
 separators are removed for display, while word order, vowels, accents and maqaf
-are preserved. No translation is imported. See upstream data/torah/json headers
+are preserved. No translation is imported in the Torah studio. The separate
+game Hebrew curriculum extracts prayer passages from this catalog, removes
+accents/punctuation while preserving vowels, and adds separately sourced
+English teaching glosses; see `HEBREW-CONTENT.md` in the development repository. See upstream data/torah/json headers
 for transcription credits. PocketTorah's app-code release was announced as GPL3;
 this integration is newly written and does not copy that React Native code.
 
