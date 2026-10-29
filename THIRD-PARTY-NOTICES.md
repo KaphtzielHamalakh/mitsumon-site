@@ -363,3 +363,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
+
+
+## Game soundtrack
+
+The Mitsumon Main Theme and Mitsumon Battle Music MP3s were supplied by
+Ben Newman for use in this game. They play from this site's local audio assets.

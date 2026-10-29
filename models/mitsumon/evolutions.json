@@ -1,0 +1,7595 @@
+{
+  "schemaVersion": 1,
+  "generator": "tools/blender/evolutions.py",
+  "blenderVersion": "4.3.2",
+  "models": [
+    {
+      "id": "nerling",
+      "name": "Nerling · Lantern",
+      "file": "nerling-level-2.glb",
+      "trianglesPacked": 3600,
+      "trianglesDefault": 2918,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Nerling.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Nerling.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Nerling.head.body",
+            "Nerling.head.belly",
+            "Nerling.head.nose",
+            "Nerling.head.mouth"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Nerling.eye.L.eyes.white",
+            "Nerling.eye.L.eyes.iris",
+            "Nerling.eye.L.eyes.pupil",
+            "Nerling.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Nerling.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Nerling.eye.R.eyes.white",
+            "Nerling.eye.R.eyes.iris",
+            "Nerling.eye.R.eyes.pupil",
+            "Nerling.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Nerling.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Nerling.leg.front.L.body",
+            "Nerling.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Nerling.leg.front.R.body",
+            "Nerling.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Nerling.leg.rear.L.body",
+            "Nerling.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Nerling.leg.rear.R.body",
+            "Nerling.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "ears__upright",
+          "materials": [
+            "Nerling.ears__upright.body",
+            "Nerling.ears__upright.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "upright"
+        },
+        {
+          "node": "ears__swept",
+          "materials": [
+            "Nerling.ears__swept.body",
+            "Nerling.ears__swept.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "swept"
+        },
+        {
+          "node": "horns__swept",
+          "materials": [
+            "Nerling.horns__swept.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "swept"
+        },
+        {
+          "node": "horns__curl",
+          "materials": [
+            "Nerling.horns__curl.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "curl"
+        },
+        {
+          "node": "tail__flame",
+          "materials": [
+            "Nerling.tail__flame.body",
+            "Nerling.tail__flame.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "flame"
+        },
+        {
+          "node": "tail__plume",
+          "materials": [
+            "Nerling.tail__plume.body",
+            "Nerling.tail__plume.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "plume"
+        },
+        {
+          "node": "tail__comet",
+          "materials": [
+            "Nerling.tail__comet.body",
+            "Nerling.tail__comet.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "comet"
+        },
+        {
+          "node": "ruff__ruff",
+          "materials": [
+            "Nerling.ruff__ruff.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "ruff"
+        },
+        {
+          "node": "ruff__tufts",
+          "materials": [
+            "Nerling.ruff__tufts.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "tufts"
+        },
+        {
+          "node": "scales__plates",
+          "materials": [
+            "Nerling.scales__plates.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "scales",
+          "variant": "plates"
+        },
+        {
+          "node": "scales__crest",
+          "materials": [
+            "Nerling.scales__crest.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "scales",
+          "variant": "crest"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Nerling.evolution.mantle.body",
+            "Nerling.evolution.mantle.belly"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "ears": {
+          "default": "upright",
+          "variants": {
+            "upright": [
+              "ears__upright"
+            ],
+            "swept": [
+              "ears__swept"
+            ]
+          }
+        },
+        "horns": {
+          "default": "swept",
+          "variants": {
+            "swept": [
+              "horns__swept"
+            ],
+            "curl": [
+              "horns__curl"
+            ]
+          }
+        },
+        "tail": {
+          "default": "flame",
+          "variants": {
+            "flame": [
+              "tail__flame"
+            ],
+            "plume": [
+              "tail__plume"
+            ],
+            "comet": [
+              "tail__comet"
+            ]
+          }
+        },
+        "ruff": {
+          "default": "ruff",
+          "variants": {
+            "ruff": [
+              "ruff__ruff"
+            ],
+            "tufts": [
+              "ruff__tufts"
+            ]
+          }
+        },
+        "scales": {
+          "default": "plates",
+          "variants": {
+            "plates": [
+              "scales__plates"
+            ],
+            "crest": [
+              "scales__crest"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Nerling.body.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.head.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.head.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.head.nose",
+          "slot": "nose",
+          "defaultColor": "#343a38"
+        },
+        {
+          "name": "Nerling.head.mouth",
+          "slot": "mouth",
+          "defaultColor": "#554338"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#b57535"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Nerling.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#b57535"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Nerling.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.ears__upright.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.ears__upright.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.ears__swept.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.ears__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.horns__swept.accent",
+          "slot": "accent",
+          "defaultColor": "#eddbb8"
+        },
+        {
+          "name": "Nerling.horns__curl.accent",
+          "slot": "accent",
+          "defaultColor": "#eddbb8"
+        },
+        {
+          "name": "Nerling.tail__flame.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.tail__flame.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.tail__plume.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.tail__plume.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.tail__comet.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.tail__comet.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.ruff__ruff.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.ruff__tufts.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.scales__plates.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.scales__crest.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.evolution.mantle.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0cf"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "ears": "upright",
+        "horns": "swept",
+        "tail": "flame",
+        "ruff": "ruff",
+        "scales": "plates"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "ear.L",
+          "ear.R",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "ember",
+      "stage": 2,
+      "description": "Twin flame shoulder fins, a warm cheek ruff and a three-point beacon crown.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/nerling-level-2.png"
+      }
+    },
+    {
+      "id": "nerling",
+      "name": "Nerling · Beacon",
+      "file": "nerling-level-3.glb",
+      "trianglesPacked": 3660,
+      "trianglesDefault": 2978,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Nerling.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Nerling.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Nerling.head.body",
+            "Nerling.head.belly",
+            "Nerling.head.nose",
+            "Nerling.head.mouth"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Nerling.eye.L.eyes.white",
+            "Nerling.eye.L.eyes.iris",
+            "Nerling.eye.L.eyes.pupil",
+            "Nerling.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Nerling.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Nerling.eye.R.eyes.white",
+            "Nerling.eye.R.eyes.iris",
+            "Nerling.eye.R.eyes.pupil",
+            "Nerling.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Nerling.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Nerling.leg.front.L.body",
+            "Nerling.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Nerling.leg.front.R.body",
+            "Nerling.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Nerling.leg.rear.L.body",
+            "Nerling.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Nerling.leg.rear.R.body",
+            "Nerling.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "ears__upright",
+          "materials": [
+            "Nerling.ears__upright.body",
+            "Nerling.ears__upright.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "upright"
+        },
+        {
+          "node": "ears__swept",
+          "materials": [
+            "Nerling.ears__swept.body",
+            "Nerling.ears__swept.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "swept"
+        },
+        {
+          "node": "horns__swept",
+          "materials": [
+            "Nerling.horns__swept.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "swept"
+        },
+        {
+          "node": "horns__curl",
+          "materials": [
+            "Nerling.horns__curl.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "curl"
+        },
+        {
+          "node": "tail__flame",
+          "materials": [
+            "Nerling.tail__flame.body",
+            "Nerling.tail__flame.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "flame"
+        },
+        {
+          "node": "tail__plume",
+          "materials": [
+            "Nerling.tail__plume.body",
+            "Nerling.tail__plume.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "plume"
+        },
+        {
+          "node": "tail__comet",
+          "materials": [
+            "Nerling.tail__comet.body",
+            "Nerling.tail__comet.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "comet"
+        },
+        {
+          "node": "ruff__ruff",
+          "materials": [
+            "Nerling.ruff__ruff.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "ruff"
+        },
+        {
+          "node": "ruff__tufts",
+          "materials": [
+            "Nerling.ruff__tufts.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "tufts"
+        },
+        {
+          "node": "scales__plates",
+          "materials": [
+            "Nerling.scales__plates.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "scales",
+          "variant": "plates"
+        },
+        {
+          "node": "scales__crest",
+          "materials": [
+            "Nerling.scales__crest.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "scales",
+          "variant": "crest"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Nerling.evolution.mantle.body",
+            "Nerling.evolution.mantle.belly"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "evolution.crown",
+          "materials": [
+            "Nerling.evolution.crown.accent",
+            "Nerling.evolution.crown.body"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "ears": {
+          "default": "upright",
+          "variants": {
+            "upright": [
+              "ears__upright"
+            ],
+            "swept": [
+              "ears__swept"
+            ]
+          }
+        },
+        "horns": {
+          "default": "swept",
+          "variants": {
+            "swept": [
+              "horns__swept"
+            ],
+            "curl": [
+              "horns__curl"
+            ]
+          }
+        },
+        "tail": {
+          "default": "flame",
+          "variants": {
+            "flame": [
+              "tail__flame"
+            ],
+            "plume": [
+              "tail__plume"
+            ],
+            "comet": [
+              "tail__comet"
+            ]
+          }
+        },
+        "ruff": {
+          "default": "ruff",
+          "variants": {
+            "ruff": [
+              "ruff__ruff"
+            ],
+            "tufts": [
+              "ruff__tufts"
+            ]
+          }
+        },
+        "scales": {
+          "default": "plates",
+          "variants": {
+            "plates": [
+              "scales__plates"
+            ],
+            "crest": [
+              "scales__crest"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Nerling.body.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.head.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.head.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.head.nose",
+          "slot": "nose",
+          "defaultColor": "#343a38"
+        },
+        {
+          "name": "Nerling.head.mouth",
+          "slot": "mouth",
+          "defaultColor": "#554338"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#b57535"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Nerling.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Nerling.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#b57535"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Nerling.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Nerling.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.ears__upright.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.ears__upright.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.ears__swept.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.ears__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.horns__swept.accent",
+          "slot": "accent",
+          "defaultColor": "#eddbb8"
+        },
+        {
+          "name": "Nerling.horns__curl.accent",
+          "slot": "accent",
+          "defaultColor": "#eddbb8"
+        },
+        {
+          "name": "Nerling.tail__flame.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.tail__flame.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.tail__plume.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.tail__plume.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.tail__comet.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.tail__comet.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.ruff__ruff.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.ruff__tufts.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0c9"
+        },
+        {
+          "name": "Nerling.scales__plates.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.scales__crest.accent",
+          "slot": "accent",
+          "defaultColor": "#ca7849"
+        },
+        {
+          "name": "Nerling.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        },
+        {
+          "name": "Nerling.evolution.mantle.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0cf"
+        },
+        {
+          "name": "Nerling.evolution.crown.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Nerling.evolution.crown.body",
+          "slot": "body",
+          "defaultColor": "#ed9765"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "ears": "upright",
+        "horns": "swept",
+        "tail": "flame",
+        "ruff": "ruff",
+        "scales": "plates"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "ear.L",
+          "ear.R",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "ember",
+      "stage": 3,
+      "description": "Twin flame shoulder fins, a warm cheek ruff and a three-point beacon crown.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/nerling-level-3.png"
+      }
+    },
+    {
+      "id": "etzling",
+      "name": "Etzling · Canopy",
+      "file": "etzling-level-2.glb",
+      "trianglesPacked": 3266,
+      "trianglesDefault": 2742,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Etzling.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Etzling.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Etzling.head.body",
+            "Etzling.head.belly",
+            "Etzling.head.nose",
+            "Etzling.head.mouth"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Etzling.eye.L.eyes.white",
+            "Etzling.eye.L.eyes.iris",
+            "Etzling.eye.L.eyes.pupil",
+            "Etzling.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Etzling.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Etzling.eye.R.eyes.white",
+            "Etzling.eye.R.eyes.iris",
+            "Etzling.eye.R.eyes.pupil",
+            "Etzling.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Etzling.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Etzling.leg.front.L.body",
+            "Etzling.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Etzling.leg.front.R.body",
+            "Etzling.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Etzling.leg.rear.L.body",
+            "Etzling.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Etzling.leg.rear.R.body",
+            "Etzling.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "ears__upright",
+          "materials": [
+            "Etzling.ears__upright.body",
+            "Etzling.ears__upright.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "upright"
+        },
+        {
+          "node": "ears__swept",
+          "materials": [
+            "Etzling.ears__swept.body",
+            "Etzling.ears__swept.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "swept"
+        },
+        {
+          "node": "antlers__branching",
+          "materials": [
+            "Etzling.antlers__branching.accent",
+            "Etzling.antlers__branching.body"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "antlers",
+          "variant": "branching"
+        },
+        {
+          "node": "antlers__young",
+          "materials": [
+            "Etzling.antlers__young.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "antlers",
+          "variant": "young"
+        },
+        {
+          "node": "antlers__crown",
+          "materials": [
+            "Etzling.antlers__crown.accent",
+            "Etzling.antlers__crown.body"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "antlers",
+          "variant": "crown"
+        },
+        {
+          "node": "tail__leaf",
+          "materials": [
+            "Etzling.tail__leaf.body",
+            "Etzling.tail__leaf.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "leaf"
+        },
+        {
+          "node": "tail__bud",
+          "materials": [
+            "Etzling.tail__bud.body",
+            "Etzling.tail__bud.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "bud"
+        },
+        {
+          "node": "forearms__mantis",
+          "materials": [
+            "Etzling.forearms__mantis.accent",
+            "Etzling.forearms__mantis.body"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "forearms",
+          "variant": "mantis"
+        },
+        {
+          "node": "forearms__petal",
+          "materials": [
+            "Etzling.forearms__petal.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "forearms",
+          "variant": "petal"
+        },
+        {
+          "node": "leaf_armor__layered",
+          "materials": [
+            "Etzling.leaf_armor__layered.accent",
+            "Etzling.leaf_armor__layered.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "leaf_armor",
+          "variant": "layered"
+        },
+        {
+          "node": "leaf_armor__sprout",
+          "materials": [
+            "Etzling.leaf_armor__sprout.accent",
+            "Etzling.leaf_armor__sprout.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "leaf_armor",
+          "variant": "sprout"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Etzling.evolution.mantle.body",
+            "Etzling.evolution.mantle.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "ears": {
+          "default": "upright",
+          "variants": {
+            "upright": [
+              "ears__upright"
+            ],
+            "swept": [
+              "ears__swept"
+            ]
+          }
+        },
+        "antlers": {
+          "default": "branching",
+          "variants": {
+            "branching": [
+              "antlers__branching"
+            ],
+            "young": [
+              "antlers__young"
+            ],
+            "crown": [
+              "antlers__crown"
+            ]
+          }
+        },
+        "tail": {
+          "default": "leaf",
+          "variants": {
+            "leaf": [
+              "tail__leaf"
+            ],
+            "bud": [
+              "tail__bud"
+            ]
+          }
+        },
+        "forearms": {
+          "default": "mantis",
+          "variants": {
+            "mantis": [
+              "forearms__mantis"
+            ],
+            "petal": [
+              "forearms__petal"
+            ]
+          }
+        },
+        "leaf_armor": {
+          "default": "layered",
+          "variants": {
+            "layered": [
+              "leaf_armor__layered"
+            ],
+            "sprout": [
+              "leaf_armor__sprout"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Etzling.body.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.head.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.head.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.head.nose",
+          "slot": "nose",
+          "defaultColor": "#343a38"
+        },
+        {
+          "name": "Etzling.head.mouth",
+          "slot": "mouth",
+          "defaultColor": "#554338"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#9a763b"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Etzling.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#9a763b"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Etzling.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.ears__upright.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.ears__upright.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.ears__swept.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.ears__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.antlers__branching.accent",
+          "slot": "accent",
+          "defaultColor": "#a38753"
+        },
+        {
+          "name": "Etzling.antlers__branching.body",
+          "slot": "body",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.antlers__young.accent",
+          "slot": "accent",
+          "defaultColor": "#a38753"
+        },
+        {
+          "name": "Etzling.antlers__crown.accent",
+          "slot": "accent",
+          "defaultColor": "#a38753"
+        },
+        {
+          "name": "Etzling.antlers__crown.body",
+          "slot": "body",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.tail__leaf.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.tail__leaf.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.tail__bud.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.tail__bud.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.forearms__mantis.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.forearms__mantis.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.forearms__petal.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leaf_armor__layered.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leaf_armor__layered.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leaf_armor__sprout.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leaf_armor__sprout.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.evolution.mantle.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "ears": "upright",
+        "antlers": "branching",
+        "tail": "leaf",
+        "forearms": "mantis",
+        "leaf_armor": "layered"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "ear.L",
+          "ear.R",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "grove",
+      "stage": 2,
+      "description": "Broader leafy shoulders, a flowering antler crown and a layered canopy mantle.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/etzling-level-2.png"
+      }
+    },
+    {
+      "id": "etzling",
+      "name": "Etzling · Ancient Grove",
+      "file": "etzling-level-3.glb",
+      "trianglesPacked": 3326,
+      "trianglesDefault": 2802,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Etzling.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Etzling.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Etzling.head.body",
+            "Etzling.head.belly",
+            "Etzling.head.nose",
+            "Etzling.head.mouth"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Etzling.eye.L.eyes.white",
+            "Etzling.eye.L.eyes.iris",
+            "Etzling.eye.L.eyes.pupil",
+            "Etzling.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Etzling.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Etzling.eye.R.eyes.white",
+            "Etzling.eye.R.eyes.iris",
+            "Etzling.eye.R.eyes.pupil",
+            "Etzling.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Etzling.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Etzling.leg.front.L.body",
+            "Etzling.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Etzling.leg.front.R.body",
+            "Etzling.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Etzling.leg.rear.L.body",
+            "Etzling.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Etzling.leg.rear.R.body",
+            "Etzling.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "ears__upright",
+          "materials": [
+            "Etzling.ears__upright.body",
+            "Etzling.ears__upright.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "upright"
+        },
+        {
+          "node": "ears__swept",
+          "materials": [
+            "Etzling.ears__swept.body",
+            "Etzling.ears__swept.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "swept"
+        },
+        {
+          "node": "antlers__branching",
+          "materials": [
+            "Etzling.antlers__branching.accent",
+            "Etzling.antlers__branching.body"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "antlers",
+          "variant": "branching"
+        },
+        {
+          "node": "antlers__young",
+          "materials": [
+            "Etzling.antlers__young.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "antlers",
+          "variant": "young"
+        },
+        {
+          "node": "antlers__crown",
+          "materials": [
+            "Etzling.antlers__crown.accent",
+            "Etzling.antlers__crown.body"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "antlers",
+          "variant": "crown"
+        },
+        {
+          "node": "tail__leaf",
+          "materials": [
+            "Etzling.tail__leaf.body",
+            "Etzling.tail__leaf.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "leaf"
+        },
+        {
+          "node": "tail__bud",
+          "materials": [
+            "Etzling.tail__bud.body",
+            "Etzling.tail__bud.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "bud"
+        },
+        {
+          "node": "forearms__mantis",
+          "materials": [
+            "Etzling.forearms__mantis.accent",
+            "Etzling.forearms__mantis.body"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "forearms",
+          "variant": "mantis"
+        },
+        {
+          "node": "forearms__petal",
+          "materials": [
+            "Etzling.forearms__petal.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "forearms",
+          "variant": "petal"
+        },
+        {
+          "node": "leaf_armor__layered",
+          "materials": [
+            "Etzling.leaf_armor__layered.accent",
+            "Etzling.leaf_armor__layered.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "leaf_armor",
+          "variant": "layered"
+        },
+        {
+          "node": "leaf_armor__sprout",
+          "materials": [
+            "Etzling.leaf_armor__sprout.accent",
+            "Etzling.leaf_armor__sprout.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "leaf_armor",
+          "variant": "sprout"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Etzling.evolution.mantle.body",
+            "Etzling.evolution.mantle.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "evolution.crown",
+          "materials": [
+            "Etzling.evolution.crown.accent",
+            "Etzling.evolution.crown.body"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "ears": {
+          "default": "upright",
+          "variants": {
+            "upright": [
+              "ears__upright"
+            ],
+            "swept": [
+              "ears__swept"
+            ]
+          }
+        },
+        "antlers": {
+          "default": "branching",
+          "variants": {
+            "branching": [
+              "antlers__branching"
+            ],
+            "young": [
+              "antlers__young"
+            ],
+            "crown": [
+              "antlers__crown"
+            ]
+          }
+        },
+        "tail": {
+          "default": "leaf",
+          "variants": {
+            "leaf": [
+              "tail__leaf"
+            ],
+            "bud": [
+              "tail__bud"
+            ]
+          }
+        },
+        "forearms": {
+          "default": "mantis",
+          "variants": {
+            "mantis": [
+              "forearms__mantis"
+            ],
+            "petal": [
+              "forearms__petal"
+            ]
+          }
+        },
+        "leaf_armor": {
+          "default": "layered",
+          "variants": {
+            "layered": [
+              "leaf_armor__layered"
+            ],
+            "sprout": [
+              "leaf_armor__sprout"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Etzling.body.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.head.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.head.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.head.nose",
+          "slot": "nose",
+          "defaultColor": "#343a38"
+        },
+        {
+          "name": "Etzling.head.mouth",
+          "slot": "mouth",
+          "defaultColor": "#554338"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#9a763b"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Etzling.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Etzling.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff9e7"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#9a763b"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#283830"
+        },
+        {
+          "name": "Etzling.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Etzling.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#625f48"
+        },
+        {
+          "name": "Etzling.ears__upright.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.ears__upright.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.ears__swept.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.ears__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.antlers__branching.accent",
+          "slot": "accent",
+          "defaultColor": "#a38753"
+        },
+        {
+          "name": "Etzling.antlers__branching.body",
+          "slot": "body",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.antlers__young.accent",
+          "slot": "accent",
+          "defaultColor": "#a38753"
+        },
+        {
+          "name": "Etzling.antlers__crown.accent",
+          "slot": "accent",
+          "defaultColor": "#a38753"
+        },
+        {
+          "name": "Etzling.antlers__crown.body",
+          "slot": "body",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.tail__leaf.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.tail__leaf.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.tail__bud.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.tail__bud.belly",
+          "slot": "belly",
+          "defaultColor": "#f2e7bc"
+        },
+        {
+          "name": "Etzling.forearms__mantis.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.forearms__mantis.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.forearms__petal.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leaf_armor__layered.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leaf_armor__layered.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.leaf_armor__sprout.accent",
+          "slot": "accent",
+          "defaultColor": "#427b54"
+        },
+        {
+          "name": "Etzling.leaf_armor__sprout.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        },
+        {
+          "name": "Etzling.evolution.mantle.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Etzling.evolution.crown.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Etzling.evolution.crown.body",
+          "slot": "body",
+          "defaultColor": "#81ba86"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "ears": "upright",
+        "antlers": "branching",
+        "tail": "leaf",
+        "forearms": "mantis",
+        "leaf_armor": "layered"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "ear.L",
+          "ear.R",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "grove",
+      "stage": 3,
+      "description": "Broader leafy shoulders, a flowering antler crown and a layered canopy mantle.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/etzling-level-3.png"
+      }
+    },
+    {
+      "id": "mayim",
+      "name": "Mayim · Rivercrest",
+      "file": "mayim-level-2.glb",
+      "trianglesPacked": 3700,
+      "trianglesDefault": 2642,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Mayim.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Mayim.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Mayim.head.body",
+            "Mayim.head.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Mayim.eye.L.eyes.white",
+            "Mayim.eye.L.eyes.iris",
+            "Mayim.eye.L.eyes.pupil",
+            "Mayim.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Mayim.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Mayim.eye.R.eyes.white",
+            "Mayim.eye.R.eyes.iris",
+            "Mayim.eye.R.eyes.pupil",
+            "Mayim.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Mayim.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "nose",
+          "materials": [
+            "Mayim.nose.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Mayim.leg.front.L.body",
+            "Mayim.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Mayim.leg.front.R.body",
+            "Mayim.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Mayim.leg.rear.L.body",
+            "Mayim.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Mayim.leg.rear.R.body",
+            "Mayim.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "fins__stream",
+          "materials": [
+            "Mayim.fins__stream.accent",
+            "Mayim.fins__stream.belly"
+          ],
+          "bones": [
+            "fin.L",
+            "fin.R"
+          ],
+          "group": "fins",
+          "variant": "stream"
+        },
+        {
+          "node": "fins__fan",
+          "materials": [
+            "Mayim.fins__fan.accent",
+            "Mayim.fins__fan.belly"
+          ],
+          "bones": [
+            "fin.L",
+            "fin.R"
+          ],
+          "group": "fins",
+          "variant": "fan"
+        },
+        {
+          "node": "horns__swept",
+          "materials": [
+            "Mayim.horns__swept.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "swept"
+        },
+        {
+          "node": "horns__branching",
+          "materials": [
+            "Mayim.horns__branching.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "branching"
+        },
+        {
+          "node": "whiskers__ribbons",
+          "materials": [
+            "Mayim.whiskers__ribbons.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "whiskers",
+          "variant": "ribbons"
+        },
+        {
+          "node": "whiskers__curl",
+          "materials": [
+            "Mayim.whiskers__curl.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "whiskers",
+          "variant": "curl"
+        },
+        {
+          "node": "tail__wave",
+          "materials": [
+            "Mayim.tail__wave.body",
+            "Mayim.tail__wave.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "wave"
+        },
+        {
+          "node": "tail__sail",
+          "materials": [
+            "Mayim.tail__sail.body",
+            "Mayim.tail__sail.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "sail"
+        },
+        {
+          "node": "tail__ribbon",
+          "materials": [
+            "Mayim.tail__ribbon.body",
+            "Mayim.tail__ribbon.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "ribbon"
+        },
+        {
+          "node": "crest__scalloped",
+          "materials": [
+            "Mayim.crest__scalloped.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "crest",
+          "variant": "scalloped"
+        },
+        {
+          "node": "crest__low",
+          "materials": [
+            "Mayim.crest__low.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "crest",
+          "variant": "low"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Mayim.evolution.mantle.body",
+            "Mayim.evolution.mantle.belly"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "fins": {
+          "default": "stream",
+          "variants": {
+            "stream": [
+              "fins__stream"
+            ],
+            "fan": [
+              "fins__fan"
+            ]
+          }
+        },
+        "horns": {
+          "default": "swept",
+          "variants": {
+            "swept": [
+              "horns__swept"
+            ],
+            "branching": [
+              "horns__branching"
+            ]
+          }
+        },
+        "whiskers": {
+          "default": "ribbons",
+          "variants": {
+            "ribbons": [
+              "whiskers__ribbons"
+            ],
+            "curl": [
+              "whiskers__curl"
+            ]
+          }
+        },
+        "tail": {
+          "default": "wave",
+          "variants": {
+            "wave": [
+              "tail__wave"
+            ],
+            "sail": [
+              "tail__sail"
+            ],
+            "ribbon": [
+              "tail__ribbon"
+            ]
+          }
+        },
+        "crest": {
+          "default": "scalloped",
+          "variants": {
+            "scalloped": [
+              "crest__scalloped"
+            ],
+            "low": [
+              "crest__low"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Mayim.body.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.head.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.head.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#bc8d44"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Mayim.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#bc8d44"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Mayim.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.nose.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.fins__stream.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.fins__stream.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.fins__fan.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.fins__fan.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.horns__swept.accent",
+          "slot": "accent",
+          "defaultColor": "#dfdabd"
+        },
+        {
+          "name": "Mayim.horns__branching.accent",
+          "slot": "accent",
+          "defaultColor": "#dfdabd"
+        },
+        {
+          "name": "Mayim.whiskers__ribbons.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.whiskers__curl.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.tail__wave.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.tail__wave.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.tail__sail.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.tail__sail.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.tail__ribbon.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.tail__ribbon.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.crest__scalloped.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.crest__low.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.evolution.mantle.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0cf"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "fins": "stream",
+        "horns": "swept",
+        "whiskers": "ribbons",
+        "tail": "wave",
+        "crest": "scalloped"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "fin.L",
+          "fin.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "tide",
+      "stage": 2,
+      "description": "Paired flowing river fins, a pearl crest and a three-sail dorsal ridge.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/mayim-level-2.png"
+      }
+    },
+    {
+      "id": "mayim",
+      "name": "Mayim · Tidekeeper",
+      "file": "mayim-level-3.glb",
+      "trianglesPacked": 3760,
+      "trianglesDefault": 2702,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Mayim.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Mayim.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Mayim.head.body",
+            "Mayim.head.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Mayim.eye.L.eyes.white",
+            "Mayim.eye.L.eyes.iris",
+            "Mayim.eye.L.eyes.pupil",
+            "Mayim.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Mayim.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Mayim.eye.R.eyes.white",
+            "Mayim.eye.R.eyes.iris",
+            "Mayim.eye.R.eyes.pupil",
+            "Mayim.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Mayim.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "nose",
+          "materials": [
+            "Mayim.nose.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Mayim.leg.front.L.body",
+            "Mayim.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Mayim.leg.front.R.body",
+            "Mayim.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Mayim.leg.rear.L.body",
+            "Mayim.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Mayim.leg.rear.R.body",
+            "Mayim.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "fins__stream",
+          "materials": [
+            "Mayim.fins__stream.accent",
+            "Mayim.fins__stream.belly"
+          ],
+          "bones": [
+            "fin.L",
+            "fin.R"
+          ],
+          "group": "fins",
+          "variant": "stream"
+        },
+        {
+          "node": "fins__fan",
+          "materials": [
+            "Mayim.fins__fan.accent",
+            "Mayim.fins__fan.belly"
+          ],
+          "bones": [
+            "fin.L",
+            "fin.R"
+          ],
+          "group": "fins",
+          "variant": "fan"
+        },
+        {
+          "node": "horns__swept",
+          "materials": [
+            "Mayim.horns__swept.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "swept"
+        },
+        {
+          "node": "horns__branching",
+          "materials": [
+            "Mayim.horns__branching.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "horns",
+          "variant": "branching"
+        },
+        {
+          "node": "whiskers__ribbons",
+          "materials": [
+            "Mayim.whiskers__ribbons.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "whiskers",
+          "variant": "ribbons"
+        },
+        {
+          "node": "whiskers__curl",
+          "materials": [
+            "Mayim.whiskers__curl.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "whiskers",
+          "variant": "curl"
+        },
+        {
+          "node": "tail__wave",
+          "materials": [
+            "Mayim.tail__wave.body",
+            "Mayim.tail__wave.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "wave"
+        },
+        {
+          "node": "tail__sail",
+          "materials": [
+            "Mayim.tail__sail.body",
+            "Mayim.tail__sail.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "sail"
+        },
+        {
+          "node": "tail__ribbon",
+          "materials": [
+            "Mayim.tail__ribbon.body",
+            "Mayim.tail__ribbon.accent"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "ribbon"
+        },
+        {
+          "node": "crest__scalloped",
+          "materials": [
+            "Mayim.crest__scalloped.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "crest",
+          "variant": "scalloped"
+        },
+        {
+          "node": "crest__low",
+          "materials": [
+            "Mayim.crest__low.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "crest",
+          "variant": "low"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Mayim.evolution.mantle.body",
+            "Mayim.evolution.mantle.belly"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "evolution.crown",
+          "materials": [
+            "Mayim.evolution.crown.accent",
+            "Mayim.evolution.crown.body"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "fins": {
+          "default": "stream",
+          "variants": {
+            "stream": [
+              "fins__stream"
+            ],
+            "fan": [
+              "fins__fan"
+            ]
+          }
+        },
+        "horns": {
+          "default": "swept",
+          "variants": {
+            "swept": [
+              "horns__swept"
+            ],
+            "branching": [
+              "horns__branching"
+            ]
+          }
+        },
+        "whiskers": {
+          "default": "ribbons",
+          "variants": {
+            "ribbons": [
+              "whiskers__ribbons"
+            ],
+            "curl": [
+              "whiskers__curl"
+            ]
+          }
+        },
+        "tail": {
+          "default": "wave",
+          "variants": {
+            "wave": [
+              "tail__wave"
+            ],
+            "sail": [
+              "tail__sail"
+            ],
+            "ribbon": [
+              "tail__ribbon"
+            ]
+          }
+        },
+        "crest": {
+          "default": "scalloped",
+          "variants": {
+            "scalloped": [
+              "crest__scalloped"
+            ],
+            "low": [
+              "crest__low"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Mayim.body.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.head.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.head.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#bc8d44"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Mayim.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Mayim.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#bc8d44"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Mayim.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Mayim.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.nose.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.fins__stream.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.fins__stream.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.fins__fan.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.fins__fan.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.horns__swept.accent",
+          "slot": "accent",
+          "defaultColor": "#dfdabd"
+        },
+        {
+          "name": "Mayim.horns__branching.accent",
+          "slot": "accent",
+          "defaultColor": "#dfdabd"
+        },
+        {
+          "name": "Mayim.whiskers__ribbons.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.whiskers__curl.belly",
+          "slot": "belly",
+          "defaultColor": "#f1ead0"
+        },
+        {
+          "name": "Mayim.tail__wave.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.tail__wave.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.tail__sail.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.tail__sail.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.tail__ribbon.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.tail__ribbon.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.crest__scalloped.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.crest__low.accent",
+          "slot": "accent",
+          "defaultColor": "#417b9a"
+        },
+        {
+          "name": "Mayim.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        },
+        {
+          "name": "Mayim.evolution.mantle.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0cf"
+        },
+        {
+          "name": "Mayim.evolution.crown.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Mayim.evolution.crown.body",
+          "slot": "body",
+          "defaultColor": "#78b9d3"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "fins": "stream",
+        "horns": "swept",
+        "whiskers": "ribbons",
+        "tail": "wave",
+        "crest": "scalloped"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "fin.L",
+          "fin.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "tide",
+      "stage": 3,
+      "description": "Paired flowing river fins, a pearl crest and a three-sail dorsal ridge.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/mayim-level-3.png"
+      }
+    },
+    {
+      "id": "ruachi",
+      "name": "Ruachi · Gale",
+      "file": "ruachi-level-2.glb",
+      "trianglesPacked": 3124,
+      "trianglesDefault": 2256,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Ruachi.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Ruachi.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Ruachi.head.body"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Ruachi.eye.L.eyes.white",
+            "Ruachi.eye.L.eyes.iris",
+            "Ruachi.eye.L.eyes.pupil",
+            "Ruachi.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Ruachi.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Ruachi.eye.R.eyes.white",
+            "Ruachi.eye.R.eyes.iris",
+            "Ruachi.eye.R.eyes.pupil",
+            "Ruachi.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Ruachi.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Ruachi.leg.front.L.body",
+            "Ruachi.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Ruachi.leg.front.R.body",
+            "Ruachi.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Ruachi.leg.rear.L.body",
+            "Ruachi.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Ruachi.leg.rear.R.body",
+            "Ruachi.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "beak__hooked",
+          "materials": [
+            "Ruachi.beak__hooked.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "beak",
+          "variant": "hooked"
+        },
+        {
+          "node": "beak__short",
+          "materials": [
+            "Ruachi.beak__short.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "beak",
+          "variant": "short"
+        },
+        {
+          "node": "ears__lynx",
+          "materials": [
+            "Ruachi.ears__lynx.body",
+            "Ruachi.ears__lynx.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "lynx"
+        },
+        {
+          "node": "ears__swept",
+          "materials": [
+            "Ruachi.ears__swept.body",
+            "Ruachi.ears__swept.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "swept"
+        },
+        {
+          "node": "wings__soaring",
+          "materials": [
+            "Ruachi.wings__soaring.body",
+            "Ruachi.wings__soaring.belly",
+            "Ruachi.wings__soaring.accent"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "soaring"
+        },
+        {
+          "node": "wings__rounded",
+          "materials": [
+            "Ruachi.wings__rounded.body",
+            "Ruachi.wings__rounded.belly",
+            "Ruachi.wings__rounded.accent"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "rounded"
+        },
+        {
+          "node": "wings__swept",
+          "materials": [
+            "Ruachi.wings__swept.body",
+            "Ruachi.wings__swept.belly",
+            "Ruachi.wings__swept.accent"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "swept"
+        },
+        {
+          "node": "tail__plumed",
+          "materials": [
+            "Ruachi.tail__plumed.body",
+            "Ruachi.tail__plumed.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "plumed"
+        },
+        {
+          "node": "tail__lynx",
+          "materials": [
+            "Ruachi.tail__lynx.body"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "lynx"
+        },
+        {
+          "node": "paws__talons",
+          "materials": [
+            "Ruachi.paws__talons.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "paws",
+          "variant": "talons"
+        },
+        {
+          "node": "paws__pads",
+          "materials": [
+            "Ruachi.paws__pads.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "paws",
+          "variant": "pads"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Ruachi.evolution.mantle.belly",
+            "Ruachi.evolution.mantle.body"
+          ],
+          "bones": [
+            "spine",
+            "wing.L",
+            "wing.R"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "beak": {
+          "default": "hooked",
+          "variants": {
+            "hooked": [
+              "beak__hooked"
+            ],
+            "short": [
+              "beak__short"
+            ]
+          }
+        },
+        "ears": {
+          "default": "lynx",
+          "variants": {
+            "lynx": [
+              "ears__lynx"
+            ],
+            "swept": [
+              "ears__swept"
+            ]
+          }
+        },
+        "wings": {
+          "default": "soaring",
+          "variants": {
+            "soaring": [
+              "wings__soaring"
+            ],
+            "rounded": [
+              "wings__rounded"
+            ],
+            "swept": [
+              "wings__swept"
+            ]
+          }
+        },
+        "tail": {
+          "default": "plumed",
+          "variants": {
+            "plumed": [
+              "tail__plumed"
+            ],
+            "lynx": [
+              "tail__lynx"
+            ]
+          }
+        },
+        "paws": {
+          "default": "talons",
+          "variants": {
+            "talons": [
+              "paws__talons"
+            ],
+            "pads": [
+              "paws__pads"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Ruachi.body.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.head.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#a78343"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Ruachi.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#a78343"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Ruachi.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.beak__hooked.accent",
+          "slot": "accent",
+          "defaultColor": "#d1ad67"
+        },
+        {
+          "name": "Ruachi.beak__short.accent",
+          "slot": "accent",
+          "defaultColor": "#d1ad67"
+        },
+        {
+          "name": "Ruachi.ears__lynx.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.ears__lynx.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.ears__swept.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.ears__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__soaring.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.wings__soaring.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__soaring.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.wings__rounded.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.wings__rounded.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__rounded.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.wings__swept.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.wings__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__swept.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.tail__plumed.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.tail__plumed.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.tail__lynx.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.paws__talons.accent",
+          "slot": "accent",
+          "defaultColor": "#d1ad67"
+        },
+        {
+          "name": "Ruachi.paws__pads.accent",
+          "slot": "accent",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.evolution.mantle.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0cf"
+        },
+        {
+          "name": "Ruachi.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "beak": "hooked",
+        "ears": "lynx",
+        "wings": "soaring",
+        "tail": "plumed",
+        "paws": "talons"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "ear.L",
+          "ear.R",
+          "arm.L",
+          "arm.R",
+          "wing.L",
+          "wing.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "sky",
+      "stage": 2,
+      "description": "A swept feather collar, wing-tip plumes and a high wind crown.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/ruachi-level-2.png"
+      }
+    },
+    {
+      "id": "ruachi",
+      "name": "Ruachi · Skywarden",
+      "file": "ruachi-level-3.glb",
+      "trianglesPacked": 3174,
+      "trianglesDefault": 2306,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Ruachi.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Ruachi.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Ruachi.head.body"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Ruachi.eye.L.eyes.white",
+            "Ruachi.eye.L.eyes.iris",
+            "Ruachi.eye.L.eyes.pupil",
+            "Ruachi.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Ruachi.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Ruachi.eye.R.eyes.white",
+            "Ruachi.eye.R.eyes.iris",
+            "Ruachi.eye.R.eyes.pupil",
+            "Ruachi.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Ruachi.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Ruachi.leg.front.L.body",
+            "Ruachi.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Ruachi.leg.front.R.body",
+            "Ruachi.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Ruachi.leg.rear.L.body",
+            "Ruachi.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Ruachi.leg.rear.R.body",
+            "Ruachi.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "beak__hooked",
+          "materials": [
+            "Ruachi.beak__hooked.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "beak",
+          "variant": "hooked"
+        },
+        {
+          "node": "beak__short",
+          "materials": [
+            "Ruachi.beak__short.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "beak",
+          "variant": "short"
+        },
+        {
+          "node": "ears__lynx",
+          "materials": [
+            "Ruachi.ears__lynx.body",
+            "Ruachi.ears__lynx.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "lynx"
+        },
+        {
+          "node": "ears__swept",
+          "materials": [
+            "Ruachi.ears__swept.body",
+            "Ruachi.ears__swept.belly"
+          ],
+          "bones": [
+            "ear.L",
+            "ear.R"
+          ],
+          "group": "ears",
+          "variant": "swept"
+        },
+        {
+          "node": "wings__soaring",
+          "materials": [
+            "Ruachi.wings__soaring.body",
+            "Ruachi.wings__soaring.belly",
+            "Ruachi.wings__soaring.accent"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "soaring"
+        },
+        {
+          "node": "wings__rounded",
+          "materials": [
+            "Ruachi.wings__rounded.body",
+            "Ruachi.wings__rounded.belly",
+            "Ruachi.wings__rounded.accent"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "rounded"
+        },
+        {
+          "node": "wings__swept",
+          "materials": [
+            "Ruachi.wings__swept.body",
+            "Ruachi.wings__swept.belly",
+            "Ruachi.wings__swept.accent"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "swept"
+        },
+        {
+          "node": "tail__plumed",
+          "materials": [
+            "Ruachi.tail__plumed.body",
+            "Ruachi.tail__plumed.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "plumed"
+        },
+        {
+          "node": "tail__lynx",
+          "materials": [
+            "Ruachi.tail__lynx.body"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "lynx"
+        },
+        {
+          "node": "paws__talons",
+          "materials": [
+            "Ruachi.paws__talons.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "paws",
+          "variant": "talons"
+        },
+        {
+          "node": "paws__pads",
+          "materials": [
+            "Ruachi.paws__pads.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "paws",
+          "variant": "pads"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Ruachi.evolution.mantle.belly",
+            "Ruachi.evolution.mantle.body"
+          ],
+          "bones": [
+            "spine",
+            "wing.L",
+            "wing.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "evolution.crown",
+          "materials": [
+            "Ruachi.evolution.crown.accent",
+            "Ruachi.evolution.crown.belly"
+          ],
+          "bones": [
+            "head",
+            "wing.L",
+            "wing.R"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "beak": {
+          "default": "hooked",
+          "variants": {
+            "hooked": [
+              "beak__hooked"
+            ],
+            "short": [
+              "beak__short"
+            ]
+          }
+        },
+        "ears": {
+          "default": "lynx",
+          "variants": {
+            "lynx": [
+              "ears__lynx"
+            ],
+            "swept": [
+              "ears__swept"
+            ]
+          }
+        },
+        "wings": {
+          "default": "soaring",
+          "variants": {
+            "soaring": [
+              "wings__soaring"
+            ],
+            "rounded": [
+              "wings__rounded"
+            ],
+            "swept": [
+              "wings__swept"
+            ]
+          }
+        },
+        "tail": {
+          "default": "plumed",
+          "variants": {
+            "plumed": [
+              "tail__plumed"
+            ],
+            "lynx": [
+              "tail__lynx"
+            ]
+          }
+        },
+        "paws": {
+          "default": "talons",
+          "variants": {
+            "talons": [
+              "paws__talons"
+            ],
+            "pads": [
+              "paws__pads"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Ruachi.body.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.head.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#a78343"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Ruachi.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Ruachi.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#a78343"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Ruachi.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Ruachi.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.front.L.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.front.R.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.rear.L.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.leg.rear.R.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.beak__hooked.accent",
+          "slot": "accent",
+          "defaultColor": "#d1ad67"
+        },
+        {
+          "name": "Ruachi.beak__short.accent",
+          "slot": "accent",
+          "defaultColor": "#d1ad67"
+        },
+        {
+          "name": "Ruachi.ears__lynx.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.ears__lynx.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.ears__swept.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.ears__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__soaring.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.wings__soaring.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__soaring.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.wings__rounded.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.wings__rounded.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__rounded.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.wings__swept.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.wings__swept.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.wings__swept.accent",
+          "slot": "accent",
+          "defaultColor": "#786793"
+        },
+        {
+          "name": "Ruachi.tail__plumed.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.tail__plumed.belly",
+          "slot": "belly",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.tail__lynx.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.paws__talons.accent",
+          "slot": "accent",
+          "defaultColor": "#d1ad67"
+        },
+        {
+          "name": "Ruachi.paws__pads.accent",
+          "slot": "accent",
+          "defaultColor": "#f6edcf"
+        },
+        {
+          "name": "Ruachi.evolution.mantle.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0cf"
+        },
+        {
+          "name": "Ruachi.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#b29cdd"
+        },
+        {
+          "name": "Ruachi.evolution.crown.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Ruachi.evolution.crown.belly",
+          "slot": "belly",
+          "defaultColor": "#fff0cf"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "beak": "hooked",
+        "ears": "lynx",
+        "wings": "soaring",
+        "tail": "plumed",
+        "paws": "talons"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "ear.L",
+          "ear.R",
+          "arm.L",
+          "arm.R",
+          "wing.L",
+          "wing.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "sky",
+      "stage": 3,
+      "description": "A swept feather collar, wing-tip plumes and a high wind crown.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/ruachi-level-3.png"
+      }
+    },
+    {
+      "id": "avni",
+      "name": "Avni · Bastion",
+      "file": "avni-level-2.glb",
+      "trianglesPacked": 3892,
+      "trianglesDefault": 2404,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Avni.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Avni.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Avni.head.body"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Avni.eye.L.eyes.white",
+            "Avni.eye.L.eyes.iris",
+            "Avni.eye.L.eyes.pupil",
+            "Avni.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Avni.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Avni.eye.R.eyes.white",
+            "Avni.eye.R.eyes.iris",
+            "Avni.eye.R.eyes.pupil",
+            "Avni.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Avni.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "mouth",
+          "materials": [
+            "Avni.mouth.mouth"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Avni.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.L",
+          "materials": [
+            "Avni.leg.middle.L.accent"
+          ],
+          "bones": [
+            "midleg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Avni.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Avni.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.R",
+          "materials": [
+            "Avni.leg.middle.R.accent"
+          ],
+          "bones": [
+            "midleg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Avni.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "shell__domed",
+          "materials": [
+            "Avni.shell__domed.body",
+            "Avni.shell__domed.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "shell",
+          "variant": "domed"
+        },
+        {
+          "node": "shell__ridged",
+          "materials": [
+            "Avni.shell__ridged.body",
+            "Avni.shell__ridged.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "shell",
+          "variant": "ridged"
+        },
+        {
+          "node": "shell__crystal",
+          "materials": [
+            "Avni.shell__crystal.body",
+            "Avni.shell__crystal.accent",
+            "Avni.shell__crystal.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "shell",
+          "variant": "crystal"
+        },
+        {
+          "node": "mandibles__stag",
+          "materials": [
+            "Avni.mandibles__stag.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "mandibles",
+          "variant": "stag"
+        },
+        {
+          "node": "mandibles__pincer",
+          "materials": [
+            "Avni.mandibles__pincer.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "mandibles",
+          "variant": "pincer"
+        },
+        {
+          "node": "mandibles__crown",
+          "materials": [
+            "Avni.mandibles__crown.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "mandibles",
+          "variant": "crown"
+        },
+        {
+          "node": "helmet__brow",
+          "materials": [
+            "Avni.helmet__brow.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "helmet",
+          "variant": "brow"
+        },
+        {
+          "node": "helmet__crown",
+          "materials": [
+            "Avni.helmet__crown.accent",
+            "Avni.helmet__crown.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "helmet",
+          "variant": "crown"
+        },
+        {
+          "node": "claws__hooks",
+          "materials": [
+            "Avni.claws__hooks.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "claws",
+          "variant": "hooks"
+        },
+        {
+          "node": "claws__rounded",
+          "materials": [
+            "Avni.claws__rounded.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "claws",
+          "variant": "rounded"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Avni.evolution.mantle.body",
+            "Avni.evolution.mantle.accent"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "shell": {
+          "default": "domed",
+          "variants": {
+            "domed": [
+              "shell__domed"
+            ],
+            "ridged": [
+              "shell__ridged"
+            ],
+            "crystal": [
+              "shell__crystal"
+            ]
+          }
+        },
+        "mandibles": {
+          "default": "stag",
+          "variants": {
+            "stag": [
+              "mandibles__stag"
+            ],
+            "pincer": [
+              "mandibles__pincer"
+            ],
+            "crown": [
+              "mandibles__crown"
+            ]
+          }
+        },
+        "helmet": {
+          "default": "brow",
+          "variants": {
+            "brow": [
+              "helmet__brow"
+            ],
+            "crown": [
+              "helmet__crown"
+            ]
+          }
+        },
+        "claws": {
+          "default": "hooks",
+          "variants": {
+            "hooks": [
+              "claws__hooks"
+            ],
+            "rounded": [
+              "claws__rounded"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Avni.body.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.head.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Avni.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#678a61"
+        },
+        {
+          "name": "Avni.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Avni.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Avni.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Avni.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#678a61"
+        },
+        {
+          "name": "Avni.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Avni.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Avni.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.mouth.mouth",
+          "slot": "mouth",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.middle.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.middle.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__domed.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.shell__domed.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__ridged.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.shell__ridged.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__crystal.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.shell__crystal.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__crystal.belly",
+          "slot": "belly",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.mandibles__stag.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.mandibles__pincer.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.mandibles__crown.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.helmet__brow.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.helmet__crown.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.helmet__crown.belly",
+          "slot": "belly",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.claws__hooks.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.claws__rounded.accent",
+          "slot": "accent",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.evolution.mantle.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "shell": "domed",
+        "mandibles": "stag",
+        "helmet": "brow",
+        "claws": "hooks"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "midleg.L",
+          "midleg.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "stone",
+      "stage": 2,
+      "description": "A broad shell rim, shoulder armor and rounded crystal crown plates.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/avni-level-2.png"
+      }
+    },
+    {
+      "id": "avni",
+      "name": "Avni · Mountain",
+      "file": "avni-level-3.glb",
+      "trianglesPacked": 3952,
+      "trianglesDefault": 2464,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Avni.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Avni.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Avni.head.body"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Avni.eye.L.eyes.white",
+            "Avni.eye.L.eyes.iris",
+            "Avni.eye.L.eyes.pupil",
+            "Avni.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Avni.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Avni.eye.R.eyes.white",
+            "Avni.eye.R.eyes.iris",
+            "Avni.eye.R.eyes.pupil",
+            "Avni.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Avni.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "mouth",
+          "materials": [
+            "Avni.mouth.mouth"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Avni.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.L",
+          "materials": [
+            "Avni.leg.middle.L.accent"
+          ],
+          "bones": [
+            "midleg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Avni.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Avni.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.R",
+          "materials": [
+            "Avni.leg.middle.R.accent"
+          ],
+          "bones": [
+            "midleg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Avni.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "shell__domed",
+          "materials": [
+            "Avni.shell__domed.body",
+            "Avni.shell__domed.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "shell",
+          "variant": "domed"
+        },
+        {
+          "node": "shell__ridged",
+          "materials": [
+            "Avni.shell__ridged.body",
+            "Avni.shell__ridged.accent"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "shell",
+          "variant": "ridged"
+        },
+        {
+          "node": "shell__crystal",
+          "materials": [
+            "Avni.shell__crystal.body",
+            "Avni.shell__crystal.accent",
+            "Avni.shell__crystal.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "shell",
+          "variant": "crystal"
+        },
+        {
+          "node": "mandibles__stag",
+          "materials": [
+            "Avni.mandibles__stag.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "mandibles",
+          "variant": "stag"
+        },
+        {
+          "node": "mandibles__pincer",
+          "materials": [
+            "Avni.mandibles__pincer.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "mandibles",
+          "variant": "pincer"
+        },
+        {
+          "node": "mandibles__crown",
+          "materials": [
+            "Avni.mandibles__crown.accent"
+          ],
+          "bones": [
+            "horn.L",
+            "horn.R"
+          ],
+          "group": "mandibles",
+          "variant": "crown"
+        },
+        {
+          "node": "helmet__brow",
+          "materials": [
+            "Avni.helmet__brow.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "helmet",
+          "variant": "brow"
+        },
+        {
+          "node": "helmet__crown",
+          "materials": [
+            "Avni.helmet__crown.accent",
+            "Avni.helmet__crown.belly"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": "helmet",
+          "variant": "crown"
+        },
+        {
+          "node": "claws__hooks",
+          "materials": [
+            "Avni.claws__hooks.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "claws",
+          "variant": "hooks"
+        },
+        {
+          "node": "claws__rounded",
+          "materials": [
+            "Avni.claws__rounded.accent"
+          ],
+          "bones": [
+            "arm.L",
+            "arm.R"
+          ],
+          "group": "claws",
+          "variant": "rounded"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Avni.evolution.mantle.body",
+            "Avni.evolution.mantle.accent"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "evolution.crown",
+          "materials": [
+            "Avni.evolution.crown.accent",
+            "Avni.evolution.crown.body"
+          ],
+          "bones": [
+            "head",
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "shell": {
+          "default": "domed",
+          "variants": {
+            "domed": [
+              "shell__domed"
+            ],
+            "ridged": [
+              "shell__ridged"
+            ],
+            "crystal": [
+              "shell__crystal"
+            ]
+          }
+        },
+        "mandibles": {
+          "default": "stag",
+          "variants": {
+            "stag": [
+              "mandibles__stag"
+            ],
+            "pincer": [
+              "mandibles__pincer"
+            ],
+            "crown": [
+              "mandibles__crown"
+            ]
+          }
+        },
+        "helmet": {
+          "default": "brow",
+          "variants": {
+            "brow": [
+              "helmet__brow"
+            ],
+            "crown": [
+              "helmet__crown"
+            ]
+          }
+        },
+        "claws": {
+          "default": "hooks",
+          "variants": {
+            "hooks": [
+              "claws__hooks"
+            ],
+            "rounded": [
+              "claws__rounded"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Avni.body.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.head.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Avni.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#678a61"
+        },
+        {
+          "name": "Avni.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Avni.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Avni.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Avni.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#678a61"
+        },
+        {
+          "name": "Avni.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Avni.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Avni.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.mouth.mouth",
+          "slot": "mouth",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.middle.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.middle.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__domed.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.shell__domed.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__ridged.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.shell__ridged.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__crystal.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.shell__crystal.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.shell__crystal.belly",
+          "slot": "belly",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.mandibles__stag.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.mandibles__pincer.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.mandibles__crown.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.helmet__brow.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.helmet__crown.accent",
+          "slot": "accent",
+          "defaultColor": "#76805b"
+        },
+        {
+          "name": "Avni.helmet__crown.belly",
+          "slot": "belly",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.claws__hooks.accent",
+          "slot": "accent",
+          "defaultColor": "#a1844b"
+        },
+        {
+          "name": "Avni.claws__rounded.accent",
+          "slot": "accent",
+          "defaultColor": "#ded6b3"
+        },
+        {
+          "name": "Avni.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        },
+        {
+          "name": "Avni.evolution.mantle.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Avni.evolution.crown.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Avni.evolution.crown.body",
+          "slot": "body",
+          "defaultColor": "#d5b876"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "shell": "domed",
+        "mandibles": "stag",
+        "helmet": "brow",
+        "claws": "hooks"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "horn.L",
+          "horn.R",
+          "arm.L",
+          "arm.R",
+          "midleg.L",
+          "midleg.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "stone",
+      "stage": 3,
+      "description": "A broad shell rim, shoulder armor and rounded crystal crown plates.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/avni-level-3.png"
+      }
+    },
+    {
+      "id": "shiri",
+      "name": "Shiri · Harmony",
+      "file": "shiri-level-2.glb",
+      "trianglesPacked": 4516,
+      "trianglesDefault": 2556,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Shiri.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Shiri.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Shiri.head.body"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Shiri.eye.L.eyes.white",
+            "Shiri.eye.L.eyes.iris",
+            "Shiri.eye.L.eyes.pupil",
+            "Shiri.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Shiri.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Shiri.eye.R.eyes.white",
+            "Shiri.eye.R.eyes.iris",
+            "Shiri.eye.R.eyes.pupil",
+            "Shiri.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Shiri.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Shiri.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.L",
+          "materials": [
+            "Shiri.leg.middle.L.accent"
+          ],
+          "bones": [
+            "midleg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Shiri.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Shiri.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.R",
+          "materials": [
+            "Shiri.leg.middle.R.accent"
+          ],
+          "bones": [
+            "midleg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Shiri.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "antennae__feathered",
+          "materials": [
+            "Shiri.antennae__feathered.accent",
+            "Shiri.antennae__feathered.body"
+          ],
+          "bones": [
+            "antenna.L",
+            "antenna.R"
+          ],
+          "group": "antennae",
+          "variant": "feathered"
+        },
+        {
+          "node": "antennae__curled",
+          "materials": [
+            "Shiri.antennae__curled.accent"
+          ],
+          "bones": [
+            "antenna.L",
+            "antenna.R"
+          ],
+          "group": "antennae",
+          "variant": "curled"
+        },
+        {
+          "node": "wings__rounded",
+          "materials": [
+            "Shiri.wings__rounded.body",
+            "Shiri.wings__rounded.accent",
+            "Shiri.wings__rounded.belly",
+            "Shiri.wings__rounded.wing.spots"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "rounded"
+        },
+        {
+          "node": "wings__swallowtail",
+          "materials": [
+            "Shiri.wings__swallowtail.body",
+            "Shiri.wings__swallowtail.accent",
+            "Shiri.wings__swallowtail.belly",
+            "Shiri.wings__swallowtail.wing.spots"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "swallowtail"
+        },
+        {
+          "node": "wings__petal",
+          "materials": [
+            "Shiri.wings__petal.body",
+            "Shiri.wings__petal.accent",
+            "Shiri.wings__petal.belly",
+            "Shiri.wings__petal.wing.spots"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "petal"
+        },
+        {
+          "node": "ruff__petals",
+          "materials": [
+            "Shiri.ruff__petals.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "petals"
+        },
+        {
+          "node": "ruff__down",
+          "materials": [
+            "Shiri.ruff__down.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "down"
+        },
+        {
+          "node": "tail__ribbons",
+          "materials": [
+            "Shiri.tail__ribbons.body"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "ribbons"
+        },
+        {
+          "node": "tail__fan",
+          "materials": [
+            "Shiri.tail__fan.body",
+            "Shiri.tail__fan.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "fan"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Shiri.evolution.mantle.markings",
+            "Shiri.evolution.mantle.body"
+          ],
+          "bones": [
+            "tail",
+            "wing.L",
+            "wing.R"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "antennae": {
+          "default": "feathered",
+          "variants": {
+            "feathered": [
+              "antennae__feathered"
+            ],
+            "curled": [
+              "antennae__curled"
+            ]
+          }
+        },
+        "wings": {
+          "default": "rounded",
+          "variants": {
+            "rounded": [
+              "wings__rounded"
+            ],
+            "swallowtail": [
+              "wings__swallowtail"
+            ],
+            "petal": [
+              "wings__petal"
+            ]
+          }
+        },
+        "ruff": {
+          "default": "petals",
+          "variants": {
+            "petals": [
+              "ruff__petals"
+            ],
+            "down": [
+              "ruff__down"
+            ]
+          }
+        },
+        "tail": {
+          "default": "ribbons",
+          "variants": {
+            "ribbons": [
+              "tail__ribbons"
+            ],
+            "fan": [
+              "tail__fan"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Shiri.body.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.head.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Shiri.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Shiri.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.middle.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.middle.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.antennae__feathered.accent",
+          "slot": "accent",
+          "defaultColor": "#b37f9c"
+        },
+        {
+          "name": "Shiri.antennae__feathered.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.antennae__curled.accent",
+          "slot": "accent",
+          "defaultColor": "#b37f9c"
+        },
+        {
+          "name": "Shiri.wings__rounded.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.wings__rounded.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.wings__rounded.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.wings__rounded.wing.spots",
+          "slot": "wing.spots",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.wing.spots",
+          "slot": "wing.spots",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.wings__petal.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.wings__petal.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.wings__petal.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.wings__petal.wing.spots",
+          "slot": "wing.spots",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.ruff__petals.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.ruff__down.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.tail__ribbons.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.tail__fan.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.tail__fan.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.evolution.mantle.markings",
+          "slot": "markings",
+          "defaultColor": "#63c3be"
+        },
+        {
+          "name": "Shiri.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "antennae": "feathered",
+        "wings": "rounded",
+        "ruff": "petals",
+        "tail": "ribbons"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "antenna.L",
+          "antenna.R",
+          "arm.L",
+          "arm.R",
+          "wing.L",
+          "wing.R",
+          "midleg.L",
+          "midleg.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "song",
+      "stage": 2,
+      "description": "Longer song ribbons, bright wing medallions and a three-note antenna crown.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/shiri-level-2.png"
+      }
+    },
+    {
+      "id": "shiri",
+      "name": "Shiri · Chorus",
+      "file": "shiri-level-3.glb",
+      "trianglesPacked": 4566,
+      "trianglesDefault": 2606,
+      "parts": [
+        {
+          "node": "body",
+          "materials": [
+            "Shiri.body.body"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "belly",
+          "materials": [
+            "Shiri.belly.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "head",
+          "materials": [
+            "Shiri.head.body"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.L",
+          "materials": [
+            "Shiri.eye.L.eyes.white",
+            "Shiri.eye.L.eyes.iris",
+            "Shiri.eye.L.eyes.pupil",
+            "Shiri.eye.L.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.L",
+          "materials": [
+            "Shiri.brow.L.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "eye.R",
+          "materials": [
+            "Shiri.eye.R.eyes.white",
+            "Shiri.eye.R.eyes.iris",
+            "Shiri.eye.R.eyes.pupil",
+            "Shiri.eye.R.eyes.glint"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "brow.R",
+          "materials": [
+            "Shiri.brow.R.accent"
+          ],
+          "bones": [
+            "head"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.L",
+          "materials": [
+            "Shiri.leg.front.L.accent"
+          ],
+          "bones": [
+            "arm.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.L",
+          "materials": [
+            "Shiri.leg.middle.L.accent"
+          ],
+          "bones": [
+            "midleg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.L",
+          "materials": [
+            "Shiri.leg.rear.L.accent"
+          ],
+          "bones": [
+            "leg.L"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.front.R",
+          "materials": [
+            "Shiri.leg.front.R.accent"
+          ],
+          "bones": [
+            "arm.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.middle.R",
+          "materials": [
+            "Shiri.leg.middle.R.accent"
+          ],
+          "bones": [
+            "midleg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "leg.rear.R",
+          "materials": [
+            "Shiri.leg.rear.R.accent"
+          ],
+          "bones": [
+            "leg.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "antennae__feathered",
+          "materials": [
+            "Shiri.antennae__feathered.accent",
+            "Shiri.antennae__feathered.body"
+          ],
+          "bones": [
+            "antenna.L",
+            "antenna.R"
+          ],
+          "group": "antennae",
+          "variant": "feathered"
+        },
+        {
+          "node": "antennae__curled",
+          "materials": [
+            "Shiri.antennae__curled.accent"
+          ],
+          "bones": [
+            "antenna.L",
+            "antenna.R"
+          ],
+          "group": "antennae",
+          "variant": "curled"
+        },
+        {
+          "node": "wings__rounded",
+          "materials": [
+            "Shiri.wings__rounded.body",
+            "Shiri.wings__rounded.accent",
+            "Shiri.wings__rounded.belly",
+            "Shiri.wings__rounded.wing.spots"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "rounded"
+        },
+        {
+          "node": "wings__swallowtail",
+          "materials": [
+            "Shiri.wings__swallowtail.body",
+            "Shiri.wings__swallowtail.accent",
+            "Shiri.wings__swallowtail.belly",
+            "Shiri.wings__swallowtail.wing.spots"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "swallowtail"
+        },
+        {
+          "node": "wings__petal",
+          "materials": [
+            "Shiri.wings__petal.body",
+            "Shiri.wings__petal.accent",
+            "Shiri.wings__petal.belly",
+            "Shiri.wings__petal.wing.spots"
+          ],
+          "bones": [
+            "wing.L",
+            "wing.R"
+          ],
+          "group": "wings",
+          "variant": "petal"
+        },
+        {
+          "node": "ruff__petals",
+          "materials": [
+            "Shiri.ruff__petals.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "petals"
+        },
+        {
+          "node": "ruff__down",
+          "materials": [
+            "Shiri.ruff__down.belly"
+          ],
+          "bones": [
+            "spine"
+          ],
+          "group": "ruff",
+          "variant": "down"
+        },
+        {
+          "node": "tail__ribbons",
+          "materials": [
+            "Shiri.tail__ribbons.body"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "ribbons"
+        },
+        {
+          "node": "tail__fan",
+          "materials": [
+            "Shiri.tail__fan.body",
+            "Shiri.tail__fan.belly"
+          ],
+          "bones": [
+            "tail"
+          ],
+          "group": "tail",
+          "variant": "fan"
+        },
+        {
+          "node": "evolution.mantle",
+          "materials": [
+            "Shiri.evolution.mantle.markings",
+            "Shiri.evolution.mantle.body"
+          ],
+          "bones": [
+            "tail",
+            "wing.L",
+            "wing.R"
+          ],
+          "group": null,
+          "variant": null
+        },
+        {
+          "node": "evolution.crown",
+          "materials": [
+            "Shiri.evolution.crown.accent",
+            "Shiri.evolution.crown.markings"
+          ],
+          "bones": [
+            "head",
+            "wing.L",
+            "wing.R"
+          ],
+          "group": null,
+          "variant": null
+        }
+      ],
+      "variantGroups": {
+        "antennae": {
+          "default": "feathered",
+          "variants": {
+            "feathered": [
+              "antennae__feathered"
+            ],
+            "curled": [
+              "antennae__curled"
+            ]
+          }
+        },
+        "wings": {
+          "default": "rounded",
+          "variants": {
+            "rounded": [
+              "wings__rounded"
+            ],
+            "swallowtail": [
+              "wings__swallowtail"
+            ],
+            "petal": [
+              "wings__petal"
+            ]
+          }
+        },
+        "ruff": {
+          "default": "petals",
+          "variants": {
+            "petals": [
+              "ruff__petals"
+            ],
+            "down": [
+              "ruff__down"
+            ]
+          }
+        },
+        "tail": {
+          "default": "ribbons",
+          "variants": {
+            "ribbons": [
+              "tail__ribbons"
+            ],
+            "fan": [
+              "tail__fan"
+            ]
+          }
+        }
+      },
+      "materials": [
+        {
+          "name": "Shiri.body.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.belly.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.head.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Shiri.eye.L.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Shiri.brow.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.white",
+          "slot": "eyes.white",
+          "defaultColor": "#fff8e6"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.iris",
+          "slot": "eyes.iris",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.pupil",
+          "slot": "eyes.pupil",
+          "defaultColor": "#273b35"
+        },
+        {
+          "name": "Shiri.eye.R.eyes.glint",
+          "slot": "eyes.glint",
+          "defaultColor": "#ffffff"
+        },
+        {
+          "name": "Shiri.brow.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.front.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.middle.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.rear.L.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.front.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.middle.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.leg.rear.R.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.antennae__feathered.accent",
+          "slot": "accent",
+          "defaultColor": "#b37f9c"
+        },
+        {
+          "name": "Shiri.antennae__feathered.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.antennae__curled.accent",
+          "slot": "accent",
+          "defaultColor": "#b37f9c"
+        },
+        {
+          "name": "Shiri.wings__rounded.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.wings__rounded.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.wings__rounded.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.wings__rounded.wing.spots",
+          "slot": "wing.spots",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.wings__swallowtail.wing.spots",
+          "slot": "wing.spots",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.wings__petal.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.wings__petal.accent",
+          "slot": "accent",
+          "defaultColor": "#965675"
+        },
+        {
+          "name": "Shiri.wings__petal.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.wings__petal.wing.spots",
+          "slot": "wing.spots",
+          "defaultColor": "#5d9a9b"
+        },
+        {
+          "name": "Shiri.ruff__petals.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.ruff__down.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.tail__ribbons.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.tail__fan.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.tail__fan.belly",
+          "slot": "belly",
+          "defaultColor": "#f4e6d3"
+        },
+        {
+          "name": "Shiri.evolution.mantle.markings",
+          "slot": "markings",
+          "defaultColor": "#63c3be"
+        },
+        {
+          "name": "Shiri.evolution.mantle.body",
+          "slot": "body",
+          "defaultColor": "#d98eb9"
+        },
+        {
+          "name": "Shiri.evolution.crown.accent",
+          "slot": "accent",
+          "defaultColor": "#f3d695"
+        },
+        {
+          "name": "Shiri.evolution.crown.markings",
+          "slot": "markings",
+          "defaultColor": "#63c3be"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "seconds": 2.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "walk",
+          "seconds": 1.0,
+          "loop": true,
+          "holdLastFrame": false
+        },
+        {
+          "name": "attack",
+          "seconds": 1.0,
+          "loop": false,
+          "holdLastFrame": false
+        },
+        {
+          "name": "hit",
+          "seconds": 0.75,
+          "loop": false,
+          "holdLastFrame": false
+        }
+      ],
+      "defaultSelection": {
+        "antennae": "feathered",
+        "wings": "rounded",
+        "ruff": "petals",
+        "tail": "ribbons"
+      },
+      "rig": {
+        "convention": "mitsumon-toy-v1",
+        "bones": [
+          "root",
+          "hips",
+          "spine",
+          "head",
+          "antenna.L",
+          "antenna.R",
+          "arm.L",
+          "arm.R",
+          "wing.L",
+          "wing.R",
+          "midleg.L",
+          "midleg.R",
+          "leg.L",
+          "leg.R",
+          "tail"
+        ],
+        "up": "+Y",
+        "forward": "+Z",
+        "units": "meters"
+      },
+      "shaderHint": "Use baseColor with a three-band MeshToonMaterial; glTF stores portable rough PBR colors.",
+      "speciesId": "song",
+      "stage": 3,
+      "description": "Longer song ribbons, bright wing medallions and a three-note antenna crown.",
+      "previews": {
+        "three-quarter": "docs/3d-previews/shiri-level-3.png"
+      }
+    }
+  ]
+}
