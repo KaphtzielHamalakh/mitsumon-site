@@ -2,7 +2,7 @@
   "id": "trainer",
   "name": "Trainer",
   "file": "trainer-kit.glb",
-  "trianglesPacked": 5990,
+  "trianglesPacked": 5994,
   "trianglesDefault": 2074,
   "parts": [
     {
@@ -561,7 +561,7 @@
     {
       "name": "Trainer.top__vest.top.accent",
       "slot": "top.accent",
-      "defaultColor": "#527f82"
+      "defaultColor": "#efc078"
     },
     {
       "name": "Trainer.bottom__shorts.bottom.main",
@@ -766,7 +766,7 @@
       },
       "file": "trainer-trail.glb",
       "trianglesPacked": 2144,
-      "bytes": 174048,
+      "bytes": 173148,
       "animations": [
         "idle",
         "walk",
@@ -803,8 +803,8 @@
         "shoes.main": "#7c644c"
       },
       "file": "trainer-meadow.glb",
-      "trianglesPacked": 2312,
-      "bytes": 176260,
+      "trianglesPacked": 2316,
+      "bytes": 176900,
       "animations": [
         "idle",
         "walk",
@@ -843,8 +843,8 @@
         "eyes.iris": "#668a76"
       },
       "file": "trainer-study.glb",
-      "trianglesPacked": 2324,
-      "bytes": 180468,
+      "trianglesPacked": 2328,
+      "bytes": 181108,
       "animations": [
         "idle",
         "walk",
@@ -883,7 +883,7 @@
       },
       "file": "trainer-river.glb",
       "trianglesPacked": 2326,
-      "bytes": 180616,
+      "bytes": 179716,
       "animations": [
         "idle",
         "walk",
@@ -962,8 +962,8 @@
         "eyes.iris": "#7b8d9b"
       },
       "file": "trainer-luminary.glb",
-      "trianglesPacked": 2754,
-      "bytes": 197068,
+      "trianglesPacked": 2758,
+      "bytes": 196808,
       "animations": [
         "idle",
         "walk",
@@ -1005,8 +1005,8 @@
         "headwear.main": "#6c8783"
       },
       "file": "npc-shopkeeper.glb",
-      "trianglesPacked": 2530,
-      "bytes": 186852,
+      "trianglesPacked": 2534,
+      "bytes": 187516,
       "animations": [
         "idle",
         "walk",
@@ -1087,8 +1087,8 @@
         "tallit.accent": "#537eae"
       },
       "file": "npc-prayer-teacher.glb",
-      "trianglesPacked": 2890,
-      "bytes": 202188,
+      "trianglesPacked": 2894,
+      "bytes": 201924,
       "animations": [
         "idle",
         "walk",
@@ -1129,8 +1129,8 @@
         "bottom.main": "#725e74"
       },
       "file": "npc-torah-teacher.glb",
-      "trianglesPacked": 2252,
-      "bytes": 177212,
+      "trianglesPacked": 2256,
+      "bytes": 177852,
       "animations": [
         "idle",
         "walk",
@@ -1170,8 +1170,8 @@
         "eyes.iris": "#858e69"
       },
       "file": "npc-dvar-teacher.glb",
-      "trianglesPacked": 2404,
-      "bytes": 181984,
+      "trianglesPacked": 2408,
+      "bytes": 182624,
       "animations": [
         "idle",
         "walk",
