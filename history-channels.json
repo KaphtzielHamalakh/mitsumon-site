@@ -1,74 +1,186 @@
 {
   "version": 1,
   "provider": "BimBam",
-  "sourceUrl": "https://bimbam.com/history/",
+  "sourceUrl": "https://bimbam.com/torah-texts/",
   "channelUrl": "https://www.youtube.com/@BimBam",
   "channels": [
+    {
+      "id": "bereshit",
+      "title": "Bereshit · Genesis begins",
+      "description": "Beginnings, creation and the first Torah portion.",
+      "videoId": "Ps96bsOOppo",
+      "collection": "torah",
+      "book": "Genesis",
+      "sourceUrl": "https://bimbam.com/bereshit/"
+    },
+    {
+      "id": "shemot",
+      "title": "Shemot · Exodus begins",
+      "description": "Moses, the burning bush and learning to speak up. BimBam recommends ages 9+.",
+      "videoId": "gvf2igu9_K4",
+      "collection": "torah",
+      "book": "Exodus",
+      "sourceUrl": "https://bimbam.com/shemot/"
+    },
+    {
+      "id": "vayikra",
+      "title": "Vayikra · Leviticus begins",
+      "description": "Offerings and what it means to bring something forward. Includes discussion of animal sacrifice.",
+      "videoId": "eTwjRj4VIps",
+      "collection": "torah",
+      "book": "Leviticus",
+      "sourceUrl": "https://bimbam.com/vayikra/"
+    },
+    {
+      "id": "bemidbar",
+      "title": "Bemidbar · Numbers begins",
+      "description": "The census and the people traveling in the wilderness.",
+      "videoId": "FoTfQrg8q48",
+      "collection": "torah",
+      "book": "Numbers",
+      "sourceUrl": "https://bimbam.com/bemidbar/"
+    },
+    {
+      "id": "devarim",
+      "title": "Devarim · Deuteronomy begins",
+      "description": "Moses looks back on the journey and the lessons of the past.",
+      "videoId": "9f-HVdTgHWc",
+      "collection": "torah",
+      "book": "Deuteronomy",
+      "sourceUrl": "https://bimbam.com/devarim/"
+    },
+    {
+      "id": "noah",
+      "title": "Noah · A new beginning",
+      "description": "The story of Noah and the flood.",
+      "videoId": "lMyjDdY5lIQ",
+      "collection": "torah",
+      "book": "Genesis",
+      "sourceUrl": "https://bimbam.com/noah/"
+    },
+    {
+      "id": "lech-lecha",
+      "title": "Lech Lecha · A journey begins",
+      "description": "Abraham and Sarah begin a journey into the unknown.",
+      "videoId": "kFCK4VVqb6Q",
+      "collection": "torah",
+      "book": "Genesis",
+      "sourceUrl": "https://bimbam.com/lech-lecha/"
+    },
+    {
+      "id": "vayeshev",
+      "title": "Vayeshev · Joseph and his brothers",
+      "description": "Joseph and his brothers, told through rhyme. Includes family jealousy and conflict.",
+      "videoId": "vH5jH-9DAQc",
+      "collection": "torah",
+      "book": "Genesis",
+      "sourceUrl": "https://bimbam.com/vayeshev/"
+    },
+    {
+      "id": "beshalach",
+      "title": "Beshalach · Leaving Egypt",
+      "description": "The Israelites leave Egypt and cross the sea.",
+      "videoId": "qb_W0fyLziA",
+      "collection": "torah",
+      "book": "Exodus",
+      "sourceUrl": "https://bimbam.com/beshalach/"
+    },
+    {
+      "id": "yitro",
+      "title": "Yitro · Learning to share responsibility",
+      "description": "Moses learns from his father-in-law about sharing the work. BimBam recommends ages 9+.",
+      "videoId": "UabwIKpxDe0",
+      "collection": "torah",
+      "book": "Exodus",
+      "sourceUrl": "https://bimbam.com/yitro/"
+    },
     {
       "id": "emancipation",
       "title": "Emancipation and Jewish life",
       "description": "How emancipation and the Enlightenment changed Jewish communities.",
-      "videoId": "99J0Yvbs19w"
+      "videoId": "99J0Yvbs19w",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "reform",
       "title": "Reform Judaism",
       "description": "A look at the beginnings of the Reform movement.",
-      "videoId": "zUNpC9Vjftg"
+      "videoId": "zUNpC9Vjftg",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "hasidism",
       "title": "Hasidic Judaism",
       "description": "Meet the ideas and communities behind the Hasidic movement.",
-      "videoId": "_SX_TjEG4i4"
+      "videoId": "_SX_TjEG4i4",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "kabbalah",
       "title": "Kabbalah",
       "description": "An introduction to Jewish mystical traditions and their development.",
-      "videoId": "XOmDIoHD3yw"
+      "videoId": "XOmDIoHD3yw",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "modern-hebrew",
       "title": "Modern Hebrew",
       "description": "How Hebrew developed into a language of everyday life.",
-      "videoId": "IChcua1MLDg"
+      "videoId": "IChcua1MLDg",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "masada",
       "title": "Masada",
       "description": "The fortress and its tragic story; discusses war and death.",
-      "videoId": "P583M0GAifY"
+      "videoId": "P583M0GAifY",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "bar-kokhba",
       "title": "The Bar Kokhba rebellion",
       "description": "An introduction to the rebellion against Roman rule.",
-      "videoId": "bRsRcYnhnH4"
+      "videoId": "bRsRcYnhnH4",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "judaism-name",
       "title": "Where the name Judaism comes from",
       "description": "Judah, Jewish identity and the origins of a name.",
-      "videoId": "N0huH58nb0k"
+      "videoId": "N0huH58nb0k",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "israeli-independence",
       "title": "Israeli Independence Day",
       "description": "The origins and observance of Israeli Independence Day.",
-      "videoId": "OqXg5e1sg5s"
+      "videoId": "OqXg5e1sg5s",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "tisha-bav",
       "title": "Tisha B’Av",
       "description": "Remembering the Temples and other tragedies in Jewish history.",
-      "videoId": "vAoSODDghE8"
+      "videoId": "vAoSODDghE8",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     },
     {
       "id": "jewish-calendar",
       "title": "The Jewish calendar",
       "description": "How lunar months and leap months shape the Jewish calendar.",
-      "videoId": "w3gzT4Pcz6c"
+      "videoId": "w3gzT4Pcz6c",
+      "collection": "history",
+      "sourceUrl": "https://bimbam.com/history/"
     }
   ]
 }
