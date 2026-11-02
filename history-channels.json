@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "provider": "BimBam",
+  "sourceUrl": "https://bimbam.com/history/",
+  "channelUrl": "https://www.youtube.com/@BimBam",
+  "channels": [
+    {
+      "id": "emancipation",
+      "title": "Emancipation and Jewish life",
+      "description": "How emancipation and the Enlightenment changed Jewish communities.",
+      "videoId": "99J0Yvbs19w"
+    },
+    {
+      "id": "reform",
+      "title": "Reform Judaism",
+      "description": "A look at the beginnings of the Reform movement.",
+      "videoId": "zUNpC9Vjftg"
+    },
+    {
+      "id": "hasidism",
+      "title": "Hasidic Judaism",
+      "description": "Meet the ideas and communities behind the Hasidic movement.",
+      "videoId": "_SX_TjEG4i4"
+    },
+    {
+      "id": "kabbalah",
+      "title": "Kabbalah",
+      "description": "An introduction to Jewish mystical traditions and their development.",
+      "videoId": "XOmDIoHD3yw"
+    },
+    {
+      "id": "modern-hebrew",
+      "title": "Modern Hebrew",
+      "description": "How Hebrew developed into a language of everyday life.",
+      "videoId": "IChcua1MLDg"
+    },
+    {
+      "id": "masada",
+      "title": "Masada",
+      "description": "The fortress and its tragic story; discusses war and death.",
+      "videoId": "P583M0GAifY"
+    },
+    {
+      "id": "bar-kokhba",
+      "title": "The Bar Kokhba rebellion",
+      "description": "An introduction to the rebellion against Roman rule.",
+      "videoId": "bRsRcYnhnH4"
+    },
+    {
+      "id": "judaism-name",
+      "title": "Where the name Judaism comes from",
+      "description": "Judah, Jewish identity and the origins of a name.",
+      "videoId": "N0huH58nb0k"
+    },
+    {
+      "id": "israeli-independence",
+      "title": "Israeli Independence Day",
+      "description": "The origins and observance of Israeli Independence Day.",
+      "videoId": "OqXg5e1sg5s"
+    },
+    {
+      "id": "tisha-bav",
+      "title": "Tisha B’Av",
+      "description": "Remembering the Temples and other tragedies in Jewish history.",
+      "videoId": "vAoSODDghE8"
+    },
+    {
+      "id": "jewish-calendar",
+      "title": "The Jewish calendar",
+      "description": "How lunar months and leap months shape the Jewish calendar.",
+      "videoId": "w3gzT4Pcz6c"
+    }
+  ]
+}
