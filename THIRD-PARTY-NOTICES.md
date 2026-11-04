@@ -408,3 +408,15 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
+
+## Additional prayer reading references
+
+PCS Prayer Practice Packet and PCS Hebrew School Prayer Boot Camp materials
+were supplied by Ben Newman. Their printed Hebrew/transliteration are credited
+in the reading panel; the PDFs themselves are not distributed. Missing readings
+use traditional Hebrew prayer/Bible text referenced through Sefaria, with links
+on each passage (Psalms 121/133 and Siddur Ashkenaz selections). Mitsumon supplies
+its own transliteration of those supplements. No modern English translation or
+Sefaria sheet commentary is reproduced. These are reading references; local
+wording and recording repetitions can differ. Source/page inventory and review
+notes are maintained in the private development repository’s PRAYER-CONTENT.md.
