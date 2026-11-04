@@ -64,3 +64,15 @@ can select passages without fetching metadata. MP3s are fetched only when played
 This is convenient for initial review, but a larger deployment should split
 metadata by portion and self-host credited audio instead of relying on raw GitHub
 availability. No hosting deployment is made by this change.
+
+## November 4 date-selected maftir excerpts
+
+The date finder uses separately generated Hebcal references, including special
+maftir. It locates both exact endpoints in one already validated PocketTorah
+recording and limits practice to those original source-timed verses. Word
+indices and reward IDs are preserved. This is explicitly an excerpt from an
+existing full-aliyah recording, not an independently recorded maftir: its ending
+melody follows the original reader. No automatic “use aliyah 7” assumption is
+made. If an exact source-timed range is unavailable, the old recording is not
+relabeled; show the assignment/reference and an exact ScrollScraper link for
+review with the tutor. No synthetic chanting or guessed timestamps are added.
